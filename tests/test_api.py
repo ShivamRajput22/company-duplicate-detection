@@ -122,3 +122,48 @@ No Match Company,Totally Unique Enterprises Inc,totally-unique-nonexistent.examp
     assert "Matched Entity ID" in detail_csv_text
     assert "Name Similarity (%)" in detail_csv_text
     assert "Latest Review Decision" in detail_csv_text
+
+
+def test_single_page_rows_and_append_only_review_round_trip():
+    """Reopening and repeated validation retain raw names, pair IDs and reviews."""
+    import csv
+    from database.database import SessionLocal
+    from database.models import Entity
+
+    with SessionLocal() as session:
+        master = session.query(Entity).filter(Entity.normalized_domain.isnot(None)).first()
+        entity_id, legal_name = master.entity_id, master.legal_name
+        domain, linkedin = master.web_domain, master.linkedin_url
+    payload = io.StringIO()
+    writer = csv.writer(payload)
+    writer.writerow(["company_name", "legal_name", "web_domain", "linkedin_url"])
+    writer.writerow(["Original company, Ltd", "'=Original legal name", domain, linkedin])
+    writer.writerow(["Unique QA ZXQY987", "Unique QA ZXQY987 Legal", "zxqy987-qa.example", ""])
+    writer.writerow(["", "", "invalid domain!", ""])
+    imported = client.post("/api/imports", files={"file": ("round_trip.CSV", payload.getvalue().encode(), "text/csv")})
+    assert imported.status_code == 200
+    run_id = imported.json()["run_id"]
+    assert client.post(f"/api/imports/{run_id}/compare", json={"fuzzy_threshold": 80}).status_code == 200
+    result = client.get(f"/api/imports/{run_id}/results?page_size=100").json()
+    assert result["filename"] == "round_trip.CSV"
+    assert result["uploaded_rows"] == imported.json()["rows"]
+    assert result["uploaded_rows"][0]["legal_name_original"] == "'=Original legal name"
+    assert result["uploaded_rows"][2]["record_validation_status"] == "rejected"
+    assert result["uploaded_rows"][2]["validation_errors"]
+    assert client.get(f"/api/imports/{run_id}/results?page=2").json()["uploaded_rows"] == []
+    candidate = next(c for c in result["candidates"] if c["matched_entity_id"] == entity_id and c["csv_row_number"] == 2)
+    assert candidate["matched_legal_name"] == legal_name
+    for decision in ["not_duplicate", "needs_review"]:
+        review = client.post(f"/api/imports/{run_id}/reviews", json={
+            "candidate_id": candidate["candidate_id"], "decision": decision, "reviewer": "regression_test"
+        })
+        assert review.status_code == 200
+    history_before = client.get(f"/api/imports/{run_id}/reviews").json()
+    assert [r["new_decision"] for r in history_before] == ["needs_review", "not_duplicate"]
+    assert history_before[0]["prior_decision"] == "not_duplicate"
+    assert client.post(f"/api/imports/{run_id}/compare", json={"fuzzy_threshold": 80}).status_code == 200
+    assert client.post(f"/api/imports/{run_id}/compare", json={"fuzzy_threshold": 85}).status_code == 409
+    assert client.get(f"/api/imports/{run_id}/reviews").json() == history_before
+    after = client.get(f"/api/imports/{run_id}/results?page_size=100").json()
+    assert [c["candidate_id"] for c in after["candidates"]] == [c["candidate_id"] for c in result["candidates"]]
+    assert after["uploaded_rows"] == result["uploaded_rows"]

@@ -27,7 +27,7 @@ async def upload_csv_import(
     file: UploadFile = File(...),
     db: Session = Depends(get_db)
 ):
-    if not file.filename.endswith(".csv"):
+    if not file.filename or not file.filename.lower().endswith(".csv"):
         raise HTTPException(status_code=400, detail="Only .csv files are supported.")
 
     file_bytes = await file.read()
@@ -130,6 +130,8 @@ def run_comparison(
             started_at=updated_run.started_at,
             completed_at=updated_run.completed_at
         )
+    except ValueError as e:
+        raise HTTPException(status_code=409, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Matching execution failed: {e}")
 
@@ -303,7 +305,20 @@ def get_run_results(
         strong_candidates_count=strong_count,
         potential_fuzzy_count=fuzzy_count,
         needs_review_count=needs_review_count,
-        reviewed_count=reviewed_count
+        reviewed_count=reviewed_count,
+        filename=run.filename,
+        uploaded_rows=[ImportRowItem(
+            upload_record_id=row.upload_record_id,
+            csv_row_number=row.csv_row_number,
+            company_name_original=row.company_name_original,
+            legal_name_original=row.legal_name_original,
+            web_domain_original=row.web_domain_original,
+            linkedin_url_original=row.linkedin_url_original,
+            record_validation_status=row.record_validation_status,
+            validation_errors=json.loads(row.validation_errors or "[]"),
+        ) for row in db.query(ImportRow).filter(
+            ImportRow.run_id == run_id
+        ).order_by(ImportRow.csv_row_number).all()] if page == 1 else [],
     )
 
 @router.get("/{run_id}/candidates/{upload_record_id}/{entity_id}", response_model=CandidateDetailResponse)

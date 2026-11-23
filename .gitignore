@@ -56,3 +56,9 @@ Thumbs.db
 *.log
 tmp/
 temp/
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.sqlite

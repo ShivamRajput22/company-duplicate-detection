@@ -10,12 +10,20 @@ Complies with all requirements from **Groups 1–8** and the agent execution con
 
 The application is architected as a clean modular monolith:
 - **Backend:** Python 3.12 + FastAPI + SQLAlchemy 2.x + Alembic Migrations + RapidFuzz + tldextract (offline PSL).
-- **Frontend:** React 18 + TypeScript + Vite + Tailwind CSS (styled after the approved dark navy & teal Matching Results dashboard visual specification).
+- **Frontend:** React 18 + TypeScript + Vite + Tailwind CSS, with one Relay-style Duplicate Records page. The approved demo's authoritative candidate evidence and review history remain available inline.
 - **Database:** SQLite (`company_duplicates.db`) with `PRAGMA foreign_keys=ON`.
-- **Three Primary Pages Only:**
-  1. `Dashboard & Upload`: Master database metrics, CSV drag-and-drop, sample benchmark loader, configurable 80% default fuzzy threshold slider (50–100%), and ingestion validation preview.
-  2. `Matching Results & Reviews`: 5 Summary Metric Cards, compact multi-filter row, search bar, authoritative candidate results grid, and a slide-over Evidence & Review Drawer with side-by-side comparison, deterministic rationale, append-only human review actions, review audit history, and optional AI verification panel.
-  3. `Reports & Exports`: 3 distinct views from a single backend export service with formula injection protection and UTF-8 BOM encoding.
+- **One page:** CSV selection and Validate (80% threshold), validation logs, Potential Duplications, Exact Duplications, other matching outcomes, Ready to Import, inline evidence/review, Previous Logs, and CSV downloads. Existing page/component files are reused; there are no new routes or components.
+- **Real backend data:** the existing results endpoint also returns the original persisted upload rows on page one, including rejected and unmatched rows. The frontend loads every candidate page before computing presentation groups.
+- **Review actions:** Add appends `not_duplicate` for each selected candidate. An accepted upload becomes ready only when every candidate is cleared or already classified `not_a_match` without an overriding review. Remove appends `needs_review` for its candidates. Master entities are never changed. Completed comparisons are immutable: repeating the same threshold returns the existing result; changing it requires a new upload, preserving previous reviews.
+- **Exports:** section downloads filter records from the existing backend exports. Potential/exact/other downloads retain one row per master Entity ID; Ready retains one row per uploaded record. The three complete backend reports remain available under CSV Downloads, with their original formula protection and UTF-8 BOM.
+
+### Existing backend limitations
+
+- Inactive status and category are not stored. Inactive Duplications is explicitly unavailable, its download is disabled, and category cells show an unavailable value rather than invented data.
+- There is no all-runs listing endpoint. Previous Logs remembers only Run IDs in this browser and reloads data from the backend; a known Run ID can also be entered manually. Clearing browser storage removes this index, not backend history.
+- Reviews require a candidate. Unmatched ready rows cannot be removed with the current API, and their selection controls are disabled with an explanation.
+- Ready to Import exports records; the application has no endpoint to insert them into the master database. Authentication/logout is also unavailable, so no simulated account/logout control is shown.
+- No new API routes, source files, database columns or dependencies were introduced for the single-page change. This user-requested layout supersedes the older three-page visual requirement in the consolidated specification; matching rules remain unchanged.
 
 ---
 
@@ -148,11 +156,13 @@ Run the complete test suite:
 pytest -v
 ```
 
-All 33 automated tests pass:
+All 34 automated tests pass:
 - `test_normalization.py` (6 passed): Unicode NFKC, casefolding, protected words preservation, registered domains, LinkedIn canonicalization.
 - `test_rules.py` (15 passed): BR-01 to BR-15, exact 80.0 threshold boundary, conflict precedence, Trimark hard negative.
 - `test_dataset.py` (3 passed): 10,000 master entities, exactly 200 duplicate groups, seed=42 reproducibility.
-- `test_api.py` (3 passed): CSV upload, compare execution, candidate retrieval, review submission, all 3 exports.
+- `test_api.py` (4 passed): CSV upload, compare execution, candidate retrieval, review submission, all 3 exports, original upload/Legal Name retrieval, and preservation of reviews and candidate IDs on repeated validation.
 - `test_exports.py` (3 passed): formula injection sanitization, adjacent ID/Legal Name verification, error handling.
 - `test_benchmarks.py` (2 passed): held-out partition evaluation, runtime latency benchmark.
 - `test_e2e_smoke.py` (1 passed): complete end-to-end user journey smoke test.
+
+The single-page revision was also exercised in local Chrome against the real FastAPI application with an in-memory copy of the existing database. Checks covered all 300 sample candidate pairs across API pages; partial and bulk Add/Remove; inline review; history after reload; validation logs; invalid, empty and oversized uploads; all eight supported downloads (template, four sections, three complete reports); Unicode/multiline CSV values; and desktop/mobile layouts. Exported Entity IDs and Legal Names were cross-checked against the master database. Original database runs and reviews were preserved. Inactive downloads and unmatched-row removal remain unavailable for the reasons above.

@@ -31,6 +31,8 @@ export interface CandidateItem {
 }
 
 export interface PaginatedResultsResponse {
+  filename: string;
+  uploaded_rows: ImportRowItem[];
   run_id: string;
   total_candidates: number;
   page: number;
@@ -78,6 +80,7 @@ export interface CompareResponse {
 }
 
 export interface ReviewHistoryItem {
+  candidate_id?: number;
   review_id: number;
   reviewer: string;
   prior_decision?: string;

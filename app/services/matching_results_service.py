@@ -2,7 +2,7 @@ import json
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
 from sqlalchemy.orm import Session
-from database.models import ImportRun, ImportRow, MatchCandidate, Entity
+from database.models import ImportRun, ImportRow, MatchCandidate, Entity, DuplicateReview
 from app.services.candidate_service import candidate_service
 
 def utcnow_str():
@@ -26,6 +26,19 @@ class MatchingResultsService:
             raise ValueError(f"Import run '{run_id}' not found.")
 
         threshold = fuzzy_threshold if fuzzy_threshold is not None else run.fuzzy_threshold
+        # A completed run is an immutable matching snapshot. Re-validating must
+        # never cascade-delete append-only human reviews or change pair IDs.
+        if run.run_status == "completed":
+            if threshold != run.fuzzy_threshold:
+                raise ValueError("This run is completed. Upload a new CSV to use a different threshold; its review history is preserved.")
+            return run
+        if run.run_status == "running":
+            raise ValueError("This comparison is already running.")
+        has_reviews = session.query(DuplicateReview.review_id).join(MatchCandidate).filter(
+            MatchCandidate.run_id == run_id
+        ).first()
+        if has_reviews:
+            raise ValueError("This run has review history. Upload a new CSV to compare again.")
         run.fuzzy_threshold = threshold
         run.run_status = "running"
         run.started_at = utcnow_str()

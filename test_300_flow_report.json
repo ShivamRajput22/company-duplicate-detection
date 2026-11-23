@@ -1,0 +1,3328 @@
+{
+  "health": {
+    "status": "healthy",
+    "database": "connected",
+    "total_entities": 10000,
+    "ai_verification_enabled": false
+  },
+  "db_stats": {
+    "total_entities": 10000,
+    "entities_with_domain": 9429,
+    "entities_with_linkedin": 9464,
+    "entities_with_both_blank": 64,
+    "ground_truth_pairs_count": 257
+  },
+  "upload_summary": {
+    "run_id": "RUN-1B09AC52",
+    "filename": "test_300_dummy_companies.csv",
+    "content_hash": "7c1c29e1f3c5877bfa19c38f3c5c7ebed07ffddfe371e3b3b4d82bef4fdf4b09",
+    "total_rows": 300,
+    "accepted_rows": 295,
+    "rejected_rows": 5,
+    "empty_rows_skipped": 0,
+    "invalid_identifiers": 10,
+    "rows": [
+      {
+        "upload_record_id": "ROW-0002",
+        "csv_row_number": 2,
+        "company_name_original": "Nexus BioTech",
+        "legal_name_original": "Nexus BioTech Ltd.",
+        "web_domain_original": "nexus-biotech.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/nexus-biotech",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0003",
+        "csv_row_number": 3,
+        "company_name_original": "Nexus BioTech",
+        "legal_name_original": "Nexus BioTech Co.",
+        "web_domain_original": "nexus-biotech.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/nexus-biotech",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0004",
+        "csv_row_number": 4,
+        "company_name_original": "Paramount Analytics",
+        "legal_name_original": "Paramount Analytics LLC",
+        "web_domain_original": "paramount-analytics.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/paramount-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0005",
+        "csv_row_number": 5,
+        "company_name_original": "Paramount Analytics",
+        "legal_name_original": "Paramount Analytics Inc.",
+        "web_domain_original": "paramount-analytics.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/paramount-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0006",
+        "csv_row_number": 6,
+        "company_name_original": "Paramount Analytics",
+        "legal_name_original": "Paramount Analytics Corporation",
+        "web_domain_original": "paramount-analytics.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/paramount-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0007",
+        "csv_row_number": 7,
+        "company_name_original": "Cascade Holdings",
+        "legal_name_original": "Cascade Holdings Ltd.",
+        "web_domain_original": "cascade-holdings.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/cascade-holdings",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0008",
+        "csv_row_number": 8,
+        "company_name_original": "CASCADE HOLDINGS",
+        "legal_name_original": "CASCADE HOLDINGS LTD.",
+        "web_domain_original": "cascade-holdings.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/cascade-holdings",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0009",
+        "csv_row_number": 9,
+        "company_name_original": "Echo Enterprises",
+        "legal_name_original": "Echo Enterprises LLC",
+        "web_domain_original": "echo-enterprises.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/echo-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0010",
+        "csv_row_number": 10,
+        "company_name_original": "Echo Enterprisex",
+        "legal_name_original": "Echo Enterprises GmbH",
+        "web_domain_original": "echo-enterprises.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/echo-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0011",
+        "csv_row_number": 11,
+        "company_name_original": "Echo Enterprisex",
+        "legal_name_original": "Echo Enterprises Ltd.",
+        "web_domain_original": "echo-enterprises.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/echo-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0012",
+        "csv_row_number": 12,
+        "company_name_original": "Atlas Partners",
+        "legal_name_original": "Atlas Partners LLC",
+        "web_domain_original": "atlas-partners.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/atlas-partners",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0013",
+        "csv_row_number": 13,
+        "company_name_original": "Atlas Partners",
+        "legal_name_original": "Atlas Partners Inc.",
+        "web_domain_original": "http://www.atlas-partners.example/",
+        "linkedin_url_original": "https://www.linkedin.com/company/atlas-partners",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0014",
+        "csv_row_number": 14,
+        "company_name_original": "Oasis Robotics",
+        "legal_name_original": "Oasis Robotics LLC",
+        "web_domain_original": "oasis-robotics.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/oasis-robotics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0015",
+        "csv_row_number": 15,
+        "company_name_original": "Oasis Robotics",
+        "legal_name_original": "Oasis Robotics Ltd.",
+        "web_domain_original": "oasis-robotics.example",
+        "linkedin_url_original": "http://linkedin.com/company/oasis-robotics/?trk=profile",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0016",
+        "csv_row_number": 16,
+        "company_name_original": "Clearwater Partners",
+        "legal_name_original": "Clearwater Partners Co.",
+        "web_domain_original": "clearwater-partners.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/clearwater-partners",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0017",
+        "csv_row_number": 17,
+        "company_name_original": "Nexus BioTech",
+        "legal_name_original": "Nexus BioTech Corporation",
+        "web_domain_original": "nexus-biotech.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/nexus-biotech",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0018",
+        "csv_row_number": 18,
+        "company_name_original": "Pinnacle Financial",
+        "legal_name_original": "Pinnacle Financial L.P.",
+        "web_domain_original": "pinnacle-financial.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/pinnacle-financial",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0019",
+        "csv_row_number": 19,
+        "company_name_original": "Pinnacle Financial",
+        "legal_name_original": "Pinnacle Financial Ltd.",
+        "web_domain_original": "pinnacle-financial.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/pinnacle-financial-alt-1",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0020",
+        "csv_row_number": 20,
+        "company_name_original": "Genesis Holdings",
+        "legal_name_original": "Genesis Holdings L.P.",
+        "web_domain_original": "genesis-holdings.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/genesis-holdings",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0021",
+        "csv_row_number": 21,
+        "company_name_original": "Genesis Holdings",
+        "legal_name_original": "Genesis Holdings Limited",
+        "web_domain_original": "genesis-holdings-alt-1.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/genesis-holdings",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0022",
+        "csv_row_number": 22,
+        "company_name_original": "Trident Systems",
+        "legal_name_original": "Trident Systems LLC",
+        "web_domain_original": "trident-systems.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/trident-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0023",
+        "csv_row_number": 23,
+        "company_name_original": "Bluestone Robotics",
+        "legal_name_original": "Bluestone Robotics Inc.",
+        "web_domain_original": "bluestone-robotics.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/bluestone-robotics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0024",
+        "csv_row_number": 24,
+        "company_name_original": "Bluestone Robotics",
+        "legal_name_original": "Bluestone Robotics LLC",
+        "web_domain_original": "bluestone-robotics.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/bluestone-robotics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0025",
+        "csv_row_number": 25,
+        "company_name_original": "Paramount Enterprises",
+        "legal_name_original": "Paramount Enterprises Inc.",
+        "web_domain_original": "paramount-enterprises.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/paramount-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0026",
+        "csv_row_number": 26,
+        "company_name_original": "Enterprises Paramount",
+        "legal_name_original": "Paramount Enterprises Ltd.",
+        "web_domain_original": "paramount-enterprises.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/paramount-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0027",
+        "csv_row_number": 27,
+        "company_name_original": "Monarch Capital",
+        "legal_name_original": "Monarch Capital GmbH",
+        "web_domain_original": "monarch-capital.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/monarch-capital",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0028",
+        "csv_row_number": 28,
+        "company_name_original": "Ironwood Systems",
+        "legal_name_original": "Ironwood Systems Corporation",
+        "web_domain_original": "ironwood-systems.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/ironwood-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0029",
+        "csv_row_number": 29,
+        "company_name_original": "Meridian Partners",
+        "legal_name_original": "Meridian Partners Inc.",
+        "web_domain_original": "meridian-partners.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/meridian-partners",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0030",
+        "csv_row_number": 30,
+        "company_name_original": "Meridian Partners",
+        "legal_name_original": "Meridian Partners GmbH",
+        "web_domain_original": "meridian-partners.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/meridian-partners",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0031",
+        "csv_row_number": 31,
+        "company_name_original": "Genesis Properties",
+        "legal_name_original": "Genesis Properties GmbH",
+        "web_domain_original": "genesis-properties.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/genesis-properties",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0032",
+        "csv_row_number": 32,
+        "company_name_original": "Genesis Properties",
+        "legal_name_original": "Genesis Properties Inc.",
+        "web_domain_original": "genesis-properties.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/genesis-properties",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0033",
+        "csv_row_number": 33,
+        "company_name_original": "Pinnacle Solutions",
+        "legal_name_original": "Pinnacle Solutions L.P.",
+        "web_domain_original": "pinnacle-solutions.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/pinnacle-solutions",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0034",
+        "csv_row_number": 34,
+        "company_name_original": "Pinnacle Solutions",
+        "legal_name_original": "Pinnacle Solutions P.L.L.C.",
+        "web_domain_original": "pinnacle-solutions.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/pinnacle-solutions",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0035",
+        "csv_row_number": 35,
+        "company_name_original": "Nexus Consulting",
+        "legal_name_original": "Nexus Consulting LLC",
+        "web_domain_original": "nexus-consulting.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/nexus-consulting",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0036",
+        "csv_row_number": 36,
+        "company_name_original": "Nexus Consulting",
+        "legal_name_original": "Nexus Consulting L.P.",
+        "web_domain_original": "nexus-consulting.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/nexus-consulting",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0037",
+        "csv_row_number": 37,
+        "company_name_original": "Apex Consulting",
+        "legal_name_original": "Apex Consulting Co.",
+        "web_domain_original": "apex-consulting.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/apex-consulting",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0038",
+        "csv_row_number": 38,
+        "company_name_original": "Apex Consulting",
+        "legal_name_original": "Apex Consulting P.L.L.C.",
+        "web_domain_original": "apex-consulting.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/apex-consulting",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0039",
+        "csv_row_number": 39,
+        "company_name_original": "Summit Systems",
+        "legal_name_original": "Summit Systems LLC",
+        "web_domain_original": "summit-systems.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/summit-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0040",
+        "csv_row_number": 40,
+        "company_name_original": "Summit Systems",
+        "legal_name_original": "Summit Systems Inc.",
+        "web_domain_original": "summit-systems.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/summit-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0041",
+        "csv_row_number": 41,
+        "company_name_original": "Jupiter Capital",
+        "legal_name_original": "Jupiter Capital Co.",
+        "web_domain_original": "jupiter-capital.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/jupiter-capital",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0042",
+        "csv_row_number": 42,
+        "company_name_original": "JUPITER CAPITAL",
+        "legal_name_original": "JUPITER CAPITAL LTD.",
+        "web_domain_original": "jupiter-capital.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/jupiter-capital",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0043",
+        "csv_row_number": 43,
+        "company_name_original": "Delta Media",
+        "legal_name_original": "Delta Media GmbH",
+        "web_domain_original": "delta-media.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/delta-media",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0044",
+        "csv_row_number": 44,
+        "company_name_original": "Delta Medix",
+        "legal_name_original": "Delta Media LLC",
+        "web_domain_original": "delta-media.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/delta-media",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0045",
+        "csv_row_number": 45,
+        "company_name_original": "Matrix Enterprises",
+        "legal_name_original": "Matrix Enterprises LLC",
+        "web_domain_original": "matrix-enterprises.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/matrix-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0046",
+        "csv_row_number": 46,
+        "company_name_original": "Matrix Enterprises",
+        "legal_name_original": "Matrix Enterprises LLC",
+        "web_domain_original": "http://www.matrix-enterprises.example/",
+        "linkedin_url_original": "https://www.linkedin.com/company/matrix-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0047",
+        "csv_row_number": 47,
+        "company_name_original": "Matrix Enterprises",
+        "legal_name_original": "Matrix Enterprises P.L.L.C.",
+        "web_domain_original": "https://matrix-enterprises.example/about?ref=share",
+        "linkedin_url_original": "https://www.linkedin.com/company/matrix-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0048",
+        "csv_row_number": 48,
+        "company_name_original": "Clearwater Energy",
+        "legal_name_original": "Clearwater Energy Corporation",
+        "web_domain_original": "clearwater-energy.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/clearwater-energy",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0049",
+        "csv_row_number": 49,
+        "company_name_original": "Clearwater Energy",
+        "legal_name_original": "Clearwater Energy LLC",
+        "web_domain_original": "clearwater-energy.example",
+        "linkedin_url_original": "http://linkedin.com/company/clearwater-energy/?trk=profile",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0050",
+        "csv_row_number": 50,
+        "company_name_original": "Catalyst Petroleum Group",
+        "legal_name_original": "Catalyst Petroleum Group Ltd.",
+        "web_domain_original": "catalyst-petroleum-group.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/catalyst-petroleum-group",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0051",
+        "csv_row_number": 51,
+        "company_name_original": "Horizon Media",
+        "legal_name_original": "Horizon Media Ltd.",
+        "web_domain_original": "horizon-media.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/horizon-media",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0052",
+        "csv_row_number": 52,
+        "company_name_original": "Evergreen Petroleum Group",
+        "legal_name_original": "Evergreen Petroleum Group L.P.",
+        "web_domain_original": "evergreen-petroleum-group.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0053",
+        "csv_row_number": 53,
+        "company_name_original": "Evergreen Petroleum Group",
+        "legal_name_original": "Evergreen Petroleum Group GmbH",
+        "web_domain_original": "evergreen-petroleum-group.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0054",
+        "csv_row_number": 54,
+        "company_name_original": "Evergreen Petroleum Group",
+        "legal_name_original": "Evergreen Petroleum Group Limited",
+        "web_domain_original": "evergreen-petroleum-group.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0055",
+        "csv_row_number": 55,
+        "company_name_original": "Quantum Capital",
+        "legal_name_original": "Quantum Capital Limited",
+        "web_domain_original": "quantum-capital.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0056",
+        "csv_row_number": 56,
+        "company_name_original": "Quantum Capital",
+        "legal_name_original": "Quantum Capital Ltd.",
+        "web_domain_original": "quantum-capital-alt-1.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0057",
+        "csv_row_number": 57,
+        "company_name_original": "Quantum Consulting",
+        "legal_name_original": "Quantum Consulting Co.",
+        "web_domain_original": "quantum-consulting.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0058",
+        "csv_row_number": 58,
+        "company_name_original": "Meridian Enterprises",
+        "legal_name_original": "Meridian Enterprises Inc.",
+        "web_domain_original": "meridian-enterprises.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0059",
+        "csv_row_number": 59,
+        "company_name_original": "Meridian Enterprises",
+        "legal_name_original": "Meridian Enterprises LLC",
+        "web_domain_original": "meridian-enterprises.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0060",
+        "csv_row_number": 60,
+        "company_name_original": "Meridian Aerospace",
+        "legal_name_original": "Meridian Aerospace Inc.",
+        "web_domain_original": "meridian-aerospace.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0061",
+        "csv_row_number": 61,
+        "company_name_original": "Aerospace Meridian",
+        "legal_name_original": "Meridian Aerospace Inc.",
+        "web_domain_original": "meridian-aerospace.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0062",
+        "csv_row_number": 62,
+        "company_name_original": "Frontier Capital",
+        "legal_name_original": "Frontier Capital GmbH",
+        "web_domain_original": "frontier-capital.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0063",
+        "csv_row_number": 63,
+        "company_name_original": "Ironwood Industries",
+        "legal_name_original": "Ironwood Industries Inc.",
+        "web_domain_original": "ironwood-industries.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0064",
+        "csv_row_number": 64,
+        "company_name_original": "Zenith Logistics",
+        "legal_name_original": "Zenith Logistics Corporation",
+        "web_domain_original": "zenith-logistics.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0065",
+        "csv_row_number": 65,
+        "company_name_original": "Zenith Logistics",
+        "legal_name_original": "Zenith Logistics GmbH",
+        "web_domain_original": "zenith-logistics.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0066",
+        "csv_row_number": 66,
+        "company_name_original": "Oasis Logistics",
+        "legal_name_original": "Oasis Logistics GmbH",
+        "web_domain_original": "oasis-logistics.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0067",
+        "csv_row_number": 67,
+        "company_name_original": "Oasis Logistics",
+        "legal_name_original": "Oasis Logistics GmbH",
+        "web_domain_original": "oasis-logistics.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0068",
+        "csv_row_number": 68,
+        "company_name_original": "Oasis Logistics",
+        "legal_name_original": "Oasis Logistics Inc.",
+        "web_domain_original": "oasis-logistics.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0069",
+        "csv_row_number": 69,
+        "company_name_original": "Oasis Logistics",
+        "legal_name_original": "Oasis Logistics Co.",
+        "web_domain_original": "oasis-logistics.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0070",
+        "csv_row_number": 70,
+        "company_name_original": "Horizon Holdings",
+        "legal_name_original": "Horizon Holdings GmbH",
+        "web_domain_original": "horizon-holdings.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0071",
+        "csv_row_number": 71,
+        "company_name_original": "Horizon Holdings",
+        "legal_name_original": "Horizon Holdings Co.",
+        "web_domain_original": "horizon-holdings.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0072",
+        "csv_row_number": 72,
+        "company_name_original": "Summit Aerospace",
+        "legal_name_original": "Summit Aerospace Ltd.",
+        "web_domain_original": "summit-aerospace.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0073",
+        "csv_row_number": 73,
+        "company_name_original": "Summit Aerospace",
+        "legal_name_original": "Summit Aerospace Ltd.",
+        "web_domain_original": "summit-aerospace.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0074",
+        "csv_row_number": 74,
+        "company_name_original": "Bluestone Robotics",
+        "legal_name_original": "Bluestone Robotics Co.",
+        "web_domain_original": "bluestone-robotics.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0075",
+        "csv_row_number": 75,
+        "company_name_original": "Bluestone Robotics",
+        "legal_name_original": "Bluestone Robotics GmbH",
+        "web_domain_original": "bluestone-robotics.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0076",
+        "csv_row_number": 76,
+        "company_name_original": "Timberline Management",
+        "legal_name_original": "Timberline Management LLC",
+        "web_domain_original": "timberline-management.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0077",
+        "csv_row_number": 77,
+        "company_name_original": "Timberline Management",
+        "legal_name_original": "Timberline Management Inc.",
+        "web_domain_original": "timberline-management.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0078",
+        "csv_row_number": 78,
+        "company_name_original": "Redwood Systems",
+        "legal_name_original": "Redwood Systems Co.",
+        "web_domain_original": "redwood-systems.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0079",
+        "csv_row_number": 79,
+        "company_name_original": "REDWOOD SYSTEMS",
+        "legal_name_original": "REDWOOD SYSTEMS LLC",
+        "web_domain_original": "redwood-systems.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0080",
+        "csv_row_number": 80,
+        "company_name_original": "Apex Enterprises",
+        "legal_name_original": "Apex Enterprises Corporation",
+        "web_domain_original": "apex-enterprises.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0081",
+        "csv_row_number": 81,
+        "company_name_original": "Apex Enterprisex",
+        "legal_name_original": "Apex Enterprises Co.",
+        "web_domain_original": "apex-enterprises.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0082",
+        "csv_row_number": 82,
+        "company_name_original": "Keystone Healthcare",
+        "legal_name_original": "Keystone Healthcare GmbH",
+        "web_domain_original": "keystone-healthcare.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0083",
+        "csv_row_number": 83,
+        "company_name_original": "Keystone Healthcare",
+        "legal_name_original": "Keystone Healthcare L.P.",
+        "web_domain_original": "http://www.keystone-healthcare.example/",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0084",
+        "csv_row_number": 84,
+        "company_name_original": "Cobalt Property Group",
+        "legal_name_original": "Cobalt Property Group Inc.",
+        "web_domain_original": "cobalt-property-group.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0085",
+        "csv_row_number": 85,
+        "company_name_original": "Cobalt Property Group",
+        "legal_name_original": "Cobalt Property Group Inc.",
+        "web_domain_original": "cobalt-property-group.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0086",
+        "csv_row_number": 86,
+        "company_name_original": "Zenith Media",
+        "legal_name_original": "Zenith Media GmbH",
+        "web_domain_original": "zenith-media.example",
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0087",
+        "csv_row_number": 87,
+        "company_name_original": "Trident Technologies",
+        "legal_name_original": "Trident Technologies LLC",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/trident-technologies",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0088",
+        "csv_row_number": 88,
+        "company_name_original": "Zenith Properties",
+        "legal_name_original": "Zenith Properties Limited",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/zenith-properties",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0089",
+        "csv_row_number": 89,
+        "company_name_original": "Zenith Properties",
+        "legal_name_original": "Zenith Properties Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/zenith-properties-alt-1",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0090",
+        "csv_row_number": 90,
+        "company_name_original": "Bluestone Partners",
+        "legal_name_original": "Bluestone Partners Inc.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/bluestone-partners",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0091",
+        "csv_row_number": 91,
+        "company_name_original": "Bluestone Partners",
+        "legal_name_original": "Bluestone Partners Limited",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/bluestone-partners",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0092",
+        "csv_row_number": 92,
+        "company_name_original": "Cobalt Systems",
+        "legal_name_original": "Cobalt Systems Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/cobalt-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0093",
+        "csv_row_number": 93,
+        "company_name_original": "Keystone Solutions",
+        "legal_name_original": "Keystone Solutions L.P.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/keystone-solutions",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0094",
+        "csv_row_number": 94,
+        "company_name_original": "Keystone Solutions",
+        "legal_name_original": "Keystone Solutions LLC",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/keystone-solutions",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0095",
+        "csv_row_number": 95,
+        "company_name_original": "Lighthouse Enterprises",
+        "legal_name_original": "Lighthouse Enterprises L.P.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/lighthouse-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0096",
+        "csv_row_number": 96,
+        "company_name_original": "Enterprises Lighthouse",
+        "legal_name_original": "Lighthouse Enterprises Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/lighthouse-enterprises",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0097",
+        "csv_row_number": 97,
+        "company_name_original": "Radiant Solutions",
+        "legal_name_original": "Radiant Solutions Inc.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/radiant-solutions",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0098",
+        "csv_row_number": 98,
+        "company_name_original": "Crest Financial",
+        "legal_name_original": "Crest Financial Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/crest-financial",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0099",
+        "csv_row_number": 99,
+        "company_name_original": "Meridian Industries",
+        "legal_name_original": "Meridian Industries Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/meridian-industries",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0100",
+        "csv_row_number": 100,
+        "company_name_original": "Meridian Industries",
+        "legal_name_original": "Meridian Industries Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/meridian-industries",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0101",
+        "csv_row_number": 101,
+        "company_name_original": "Beacon Analytics",
+        "legal_name_original": "Beacon Analytics Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/beacon-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0102",
+        "csv_row_number": 102,
+        "company_name_original": "Beacon Analytics",
+        "legal_name_original": "Beacon Analytics Limited",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/beacon-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0103",
+        "csv_row_number": 103,
+        "company_name_original": "Beacon Analytics",
+        "legal_name_original": "Beacon Analytics Inc.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/beacon-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0104",
+        "csv_row_number": 104,
+        "company_name_original": "Radiant Industries",
+        "legal_name_original": "Radiant Industries GmbH",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/radiant-industries",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0105",
+        "csv_row_number": 105,
+        "company_name_original": "Radiant Industries",
+        "legal_name_original": "Radiant Industries GmbH",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/radiant-industries",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0106",
+        "csv_row_number": 106,
+        "company_name_original": "Vanguard Property Group",
+        "legal_name_original": "Vanguard Property Group Inc.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/vanguard-property-group",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0107",
+        "csv_row_number": 107,
+        "company_name_original": "Vanguard Property Group",
+        "legal_name_original": "Vanguard Property Group Corporation",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/vanguard-property-group",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0108",
+        "csv_row_number": 108,
+        "company_name_original": "Atlas Management",
+        "legal_name_original": "Atlas Management LLC",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/atlas-management",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0109",
+        "csv_row_number": 109,
+        "company_name_original": "Atlas Management",
+        "legal_name_original": "Atlas Management Inc.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/atlas-management",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0110",
+        "csv_row_number": 110,
+        "company_name_original": "Catalyst Systems",
+        "legal_name_original": "Catalyst Systems LLC",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/catalyst-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0111",
+        "csv_row_number": 111,
+        "company_name_original": "Catalyst Systems",
+        "legal_name_original": "Catalyst Systems Inc.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/catalyst-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0112",
+        "csv_row_number": 112,
+        "company_name_original": "Trident Aerospace",
+        "legal_name_original": "Trident Aerospace GmbH",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/trident-aerospace",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0113",
+        "csv_row_number": 113,
+        "company_name_original": "TRIDENT AEROSPACE",
+        "legal_name_original": "TRIDENT AEROSPACE INC.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/trident-aerospace",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0114",
+        "csv_row_number": 114,
+        "company_name_original": "Sterling Media",
+        "legal_name_original": "Sterling Media Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/sterling-media",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0115",
+        "csv_row_number": 115,
+        "company_name_original": "Sterling Medix",
+        "legal_name_original": "Sterling Media Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/sterling-media",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0116",
+        "csv_row_number": 116,
+        "company_name_original": "Crest Communications",
+        "legal_name_original": "Crest Communications L.P.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/crest-communications",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0117",
+        "csv_row_number": 117,
+        "company_name_original": "Crest Communications",
+        "legal_name_original": "Crest Communications LLC",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/crest-communications",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0118",
+        "csv_row_number": 118,
+        "company_name_original": "Northstar BioTech",
+        "legal_name_original": "Northstar BioTech Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/northstar-biotech",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0119",
+        "csv_row_number": 119,
+        "company_name_original": "Northstar BioTech",
+        "legal_name_original": "Northstar BioTech Limited",
+        "web_domain_original": null,
+        "linkedin_url_original": "http://linkedin.com/company/northstar-biotech/?trk=profile",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0120",
+        "csv_row_number": 120,
+        "company_name_original": "Venture Holdings",
+        "legal_name_original": "Venture Holdings Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/venture-holdings",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0121",
+        "csv_row_number": 121,
+        "company_name_original": "Titan Analytics",
+        "legal_name_original": "Titan Analytics L.P.",
+        "web_domain_original": null,
+        "linkedin_url_original": "https://www.linkedin.com/company/titan-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0122",
+        "csv_row_number": 122,
+        "company_name_original": "Echo Properties",
+        "legal_name_original": "Echo Properties Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0123",
+        "csv_row_number": 123,
+        "company_name_original": "Echo Properties",
+        "legal_name_original": "Echo Properties Solutions Incorporated",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0124",
+        "csv_row_number": 124,
+        "company_name_original": "Trident Systems",
+        "legal_name_original": "Trident Systems P.L.L.C. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0125",
+        "csv_row_number": 125,
+        "company_name_original": "Clearwater Petroleum Group",
+        "legal_name_original": "Clearwater Petroleum Group Corp.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0126",
+        "csv_row_number": 126,
+        "company_name_original": "Clearwater Petroleum Group",
+        "legal_name_original": "Clearwater Petroleum Group Solutions Incorporated",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0127",
+        "csv_row_number": 127,
+        "company_name_original": "Quantum Consulting",
+        "legal_name_original": "Quantum Consulting Corp.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0128",
+        "csv_row_number": 128,
+        "company_name_original": "Starlight Technologies",
+        "legal_name_original": "Starlight Technologies GmbH Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0129",
+        "csv_row_number": 129,
+        "company_name_original": "Starlight Technologies",
+        "legal_name_original": "Starlight Technologies Solutions L.L.C.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0130",
+        "csv_row_number": 130,
+        "company_name_original": "Cobalt Systems",
+        "legal_name_original": "Cobalt Systems Corp.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0131",
+        "csv_row_number": 131,
+        "company_name_original": "Trident Petroleum Group",
+        "legal_name_original": "Trident Petroleum Group Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0132",
+        "csv_row_number": 132,
+        "company_name_original": "Trident Petroleum Group",
+        "legal_name_original": "Trident Petroleum Group Solutions Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0133",
+        "csv_row_number": 133,
+        "company_name_original": "Bluestone Solutions",
+        "legal_name_original": "Bluestone Solutions Co. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0134",
+        "csv_row_number": 134,
+        "company_name_original": "Matrix Financial",
+        "legal_name_original": "Matrix Financial P.L.L.C. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0135",
+        "csv_row_number": 135,
+        "company_name_original": "Matrix Financial",
+        "legal_name_original": "Matrix Financial Solutions Co. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0136",
+        "csv_row_number": 136,
+        "company_name_original": "Falcon Technologies",
+        "legal_name_original": "Falcon Technologies Corp.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0137",
+        "csv_row_number": 137,
+        "company_name_original": "Falcon Financial",
+        "legal_name_original": "Falcon Financial L.L.C.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0138",
+        "csv_row_number": 138,
+        "company_name_original": "Falcon Financial",
+        "legal_name_original": "Falcon Financial Solutions GmbH Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0139",
+        "csv_row_number": 139,
+        "company_name_original": "Meridian Communications",
+        "legal_name_original": "Meridian Communications Co. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0140",
+        "csv_row_number": 140,
+        "company_name_original": "Lighthouse Financial",
+        "legal_name_original": "Lighthouse Financial Ltd. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0141",
+        "csv_row_number": 141,
+        "company_name_original": "Lighthouse Financial",
+        "legal_name_original": "Lighthouse Financial Solutions Ltd.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0142",
+        "csv_row_number": 142,
+        "company_name_original": "Cascade Property Group",
+        "legal_name_original": "Cascade Property Group Incorporated",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0143",
+        "csv_row_number": 143,
+        "company_name_original": "Echo Consulting",
+        "legal_name_original": "Echo Consulting P.L.L.C. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0144",
+        "csv_row_number": 144,
+        "company_name_original": "Echo Consulting",
+        "legal_name_original": "Echo Consulting Solutions Incorporated",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0145",
+        "csv_row_number": 145,
+        "company_name_original": "Sterling Healthcare",
+        "legal_name_original": "Sterling Healthcare P.L.L.C. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0146",
+        "csv_row_number": 146,
+        "company_name_original": "Lighthouse Financial",
+        "legal_name_original": "Lighthouse Financial GmbH Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0147",
+        "csv_row_number": 147,
+        "company_name_original": "Lighthouse Financial",
+        "legal_name_original": "Lighthouse Financial Solutions P.L.L.C. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0148",
+        "csv_row_number": 148,
+        "company_name_original": "Venture Consulting",
+        "legal_name_original": "Venture Consulting GmbH Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0149",
+        "csv_row_number": 149,
+        "company_name_original": "Clearwater Management",
+        "legal_name_original": "Clearwater Management L.L.C.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0150",
+        "csv_row_number": 150,
+        "company_name_original": "Clearwater Management",
+        "legal_name_original": "Clearwater Management Solutions Co. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0151",
+        "csv_row_number": 151,
+        "company_name_original": "Harbor Consulting",
+        "legal_name_original": "Harbor Consulting Ltd. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0152",
+        "csv_row_number": 152,
+        "company_name_original": "Clearwater Consulting",
+        "legal_name_original": "Clearwater Consulting GmbH Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0153",
+        "csv_row_number": 153,
+        "company_name_original": "Lighthouse Enterprises 1508",
+        "legal_name_original": "Lighthouse Enterprises 1508 GmbH Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0154",
+        "csv_row_number": 154,
+        "company_name_original": "Cascade Capital 1533",
+        "legal_name_original": "Cascade Capital 1533 Corp.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0155",
+        "csv_row_number": 155,
+        "company_name_original": "Cobalt Healthcare 1636",
+        "legal_name_original": "Cobalt Healthcare 1636 Ltd. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0156",
+        "csv_row_number": 156,
+        "company_name_original": "Summit Enterprises 1698",
+        "legal_name_original": "Summit Enterprises 1698 L.L.C.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0157",
+        "csv_row_number": 157,
+        "company_name_original": "Paramount Consulting 1756",
+        "legal_name_original": "Paramount Consulting 1756 Ltd. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0158",
+        "csv_row_number": 158,
+        "company_name_original": "Redwood BioTech 2300",
+        "legal_name_original": "Redwood BioTech 2300 Incorporated",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0159",
+        "csv_row_number": 159,
+        "company_name_original": "Horizon Industries 2459",
+        "legal_name_original": "Horizon Industries 2459 Incorporated",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0160",
+        "csv_row_number": 160,
+        "company_name_original": "Pinnacle Financial 2498",
+        "legal_name_original": "Pinnacle Financial 2498 Incorporated",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0161",
+        "csv_row_number": 161,
+        "company_name_original": "Summit Petroleum Group 2516",
+        "legal_name_original": "Summit Petroleum Group 2516 Co. Co.",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0162",
+        "csv_row_number": 162,
+        "company_name_original": "Paramount Communications",
+        "legal_name_original": "Paramount Communications Co.",
+        "web_domain_original": "paramount-communications.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-0",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0163",
+        "csv_row_number": 163,
+        "company_name_original": "Paramount Communications",
+        "legal_name_original": "Paramount Communications GmbH",
+        "web_domain_original": "paramount-communications.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-1",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0164",
+        "csv_row_number": 164,
+        "company_name_original": "Ironwood Capital",
+        "legal_name_original": "Ironwood Capital L.P.",
+        "web_domain_original": "ironwood-capital.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-2",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0165",
+        "csv_row_number": 165,
+        "company_name_original": "Ironwood Capital",
+        "legal_name_original": "Ironwood Capital L.P.",
+        "web_domain_original": "ironwood-capital-alt-1.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-3",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0166",
+        "csv_row_number": 166,
+        "company_name_original": "Bluestone Solutions",
+        "legal_name_original": "Bluestone Solutions L.P.",
+        "web_domain_original": "bluestone-solutions.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-4",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0167",
+        "csv_row_number": 167,
+        "company_name_original": "Cobalt Property Group",
+        "legal_name_original": "Cobalt Property Group Co.",
+        "web_domain_original": "cobalt-property-group.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-5",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0168",
+        "csv_row_number": 168,
+        "company_name_original": "Cobalt Property Group",
+        "legal_name_original": "Cobalt Property Group Co.",
+        "web_domain_original": "cobalt-property-group.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-6",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0169",
+        "csv_row_number": 169,
+        "company_name_original": "Nexus Systems",
+        "legal_name_original": "Nexus Systems Limited",
+        "web_domain_original": "nexus-systems.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-7",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0170",
+        "csv_row_number": 170,
+        "company_name_original": "Systems Nexus",
+        "legal_name_original": "Nexus Systems P.L.L.C.",
+        "web_domain_original": "nexus-systems.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-8",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0171",
+        "csv_row_number": 171,
+        "company_name_original": "Cascade Healthcare",
+        "legal_name_original": "Cascade Healthcare Ltd.",
+        "web_domain_original": "cascade-healthcare.example",
+        "linkedin_url_original": "https://www.linkedin.com/company/conflicting-different-corp-9",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0172",
+        "csv_row_number": 172,
+        "company_name_original": "Solstice Solutions",
+        "legal_name_original": "Solstice Solutions Inc.",
+        "web_domain_original": "conflicting-domain-0.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/solstice-solutions",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0173",
+        "csv_row_number": 173,
+        "company_name_original": "Clearwater Analytics",
+        "legal_name_original": "Clearwater Analytics Limited",
+        "web_domain_original": "conflicting-domain-1.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/clearwater-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0174",
+        "csv_row_number": 174,
+        "company_name_original": "Clearwater Analytics",
+        "legal_name_original": "Clearwater Analytics Ltd.",
+        "web_domain_original": "conflicting-domain-2.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/clearwater-analytics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0175",
+        "csv_row_number": 175,
+        "company_name_original": "Bluestone Logistics",
+        "legal_name_original": "Bluestone Logistics Ltd.",
+        "web_domain_original": "conflicting-domain-3.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/bluestone-logistics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0176",
+        "csv_row_number": 176,
+        "company_name_original": "Bluestone Logistics",
+        "legal_name_original": "Bluestone Logistics Corporation",
+        "web_domain_original": "conflicting-domain-4.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/bluestone-logistics",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0177",
+        "csv_row_number": 177,
+        "company_name_original": "Beacon Properties",
+        "legal_name_original": "Beacon Properties Ltd.",
+        "web_domain_original": "conflicting-domain-5.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/beacon-properties",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0178",
+        "csv_row_number": 178,
+        "company_name_original": "Beacon Properties",
+        "legal_name_original": "Beacon Properties Inc.",
+        "web_domain_original": "conflicting-domain-6.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/beacon-properties",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0179",
+        "csv_row_number": 179,
+        "company_name_original": "Meridian Systems",
+        "legal_name_original": "Meridian Systems Ltd.",
+        "web_domain_original": "conflicting-domain-7.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/meridian-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0180",
+        "csv_row_number": 180,
+        "company_name_original": "Meridian Systems",
+        "legal_name_original": "Meridian Systems P.L.L.C.",
+        "web_domain_original": "conflicting-domain-8.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/meridian-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0181",
+        "csv_row_number": 181,
+        "company_name_original": "Meridian Systems",
+        "legal_name_original": "Meridian Systems Ltd.",
+        "web_domain_original": "conflicting-domain-9.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/meridian-systems",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0182",
+        "csv_row_number": 182,
+        "company_name_original": "Trimark Property Group",
+        "legal_name_original": "Trimark Property Group LLC",
+        "web_domain_original": "trimark-property-custom-0.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/trimark-property-custom-0",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0183",
+        "csv_row_number": 183,
+        "company_name_original": "Trimark Petroleum Group",
+        "legal_name_original": "Trimark Petroleum Group LLC",
+        "web_domain_original": "trimark-petroleum-custom-1.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/trimark-petroleum-custom-1",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0184",
+        "csv_row_number": 184,
+        "company_name_original": "Westbridge Capital",
+        "legal_name_original": "Westbridge Capital Management LLC",
+        "web_domain_original": "westbridge-cap-custom-2.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/westbridge-cap-custom-2",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0185",
+        "csv_row_number": 185,
+        "company_name_original": "Westbridge Logistics",
+        "legal_name_original": "Westbridge Logistics Solutions LLC",
+        "web_domain_original": "westbridge-log-custom-3.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/westbridge-log-custom-3",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0186",
+        "csv_row_number": 186,
+        "company_name_original": "Horizon Healthcare",
+        "legal_name_original": "Horizon Healthcare Systems LLC",
+        "web_domain_original": "horizon-health-custom-4.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/horizon-health-custom-4",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0187",
+        "csv_row_number": 187,
+        "company_name_original": "Trimark Property Group 6",
+        "legal_name_original": "Trimark Property Group LLC 6",
+        "web_domain_original": "trimark-property-custom-5.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/trimark-property-custom-5",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0188",
+        "csv_row_number": 188,
+        "company_name_original": "Trimark Petroleum Group 7",
+        "legal_name_original": "Trimark Petroleum Group LLC 7",
+        "web_domain_original": "trimark-petroleum-custom-6.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/trimark-petroleum-custom-6",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0189",
+        "csv_row_number": 189,
+        "company_name_original": "Westbridge Capital 8",
+        "legal_name_original": "Westbridge Capital Management LLC 8",
+        "web_domain_original": "westbridge-cap-custom-7.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/westbridge-cap-custom-7",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0190",
+        "csv_row_number": 190,
+        "company_name_original": "Westbridge Logistics 9",
+        "legal_name_original": "Westbridge Logistics Solutions LLC 9",
+        "web_domain_original": "westbridge-log-custom-8.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/westbridge-log-custom-8",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0191",
+        "csv_row_number": 191,
+        "company_name_original": "Horizon Healthcare 10",
+        "legal_name_original": "Horizon Healthcare Systems LLC 10",
+        "web_domain_original": "horizon-health-custom-9.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/horizon-health-custom-9",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0192",
+        "csv_row_number": 192,
+        "company_name_original": "Trimark Property Group 11",
+        "legal_name_original": "Trimark Property Group LLC 11",
+        "web_domain_original": "trimark-property-custom-10.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/trimark-property-custom-10",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0193",
+        "csv_row_number": 193,
+        "company_name_original": "Trimark Petroleum Group 12",
+        "legal_name_original": "Trimark Petroleum Group LLC 12",
+        "web_domain_original": "trimark-petroleum-custom-11.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/trimark-petroleum-custom-11",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0194",
+        "csv_row_number": 194,
+        "company_name_original": "Westbridge Capital 13",
+        "legal_name_original": "Westbridge Capital Management LLC 13",
+        "web_domain_original": "westbridge-cap-custom-12.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/westbridge-cap-custom-12",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0195",
+        "csv_row_number": 195,
+        "company_name_original": "Westbridge Logistics 14",
+        "legal_name_original": "Westbridge Logistics Solutions LLC 14",
+        "web_domain_original": "westbridge-log-custom-13.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/westbridge-log-custom-13",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0196",
+        "csv_row_number": 196,
+        "company_name_original": "Horizon Healthcare 15",
+        "legal_name_original": "Horizon Healthcare Systems LLC 15",
+        "web_domain_original": "horizon-health-custom-14.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/horizon-health-custom-14",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0197",
+        "csv_row_number": 197,
+        "company_name_original": "Unique Innovations Group 1",
+        "legal_name_original": "Unique Innovations Group 1 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-1.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-1",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0198",
+        "csv_row_number": 198,
+        "company_name_original": "Unique Innovations Group 2",
+        "legal_name_original": "Unique Innovations Group 2 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-2.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-2",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0199",
+        "csv_row_number": 199,
+        "company_name_original": "Unique Innovations Group 3",
+        "legal_name_original": "Unique Innovations Group 3 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-3.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-3",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0200",
+        "csv_row_number": 200,
+        "company_name_original": "Unique Innovations Group 4",
+        "legal_name_original": "Unique Innovations Group 4 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-4.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-4",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0201",
+        "csv_row_number": 201,
+        "company_name_original": "Unique Innovations Group 5",
+        "legal_name_original": "Unique Innovations Group 5 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-5.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-5",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0202",
+        "csv_row_number": 202,
+        "company_name_original": "Unique Innovations Group 6",
+        "legal_name_original": "Unique Innovations Group 6 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-6.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-6",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0203",
+        "csv_row_number": 203,
+        "company_name_original": "Unique Innovations Group 7",
+        "legal_name_original": "Unique Innovations Group 7 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-7.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-7",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0204",
+        "csv_row_number": 204,
+        "company_name_original": "Unique Innovations Group 8",
+        "legal_name_original": "Unique Innovations Group 8 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-8.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-8",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0205",
+        "csv_row_number": 205,
+        "company_name_original": "Unique Innovations Group 9",
+        "legal_name_original": "Unique Innovations Group 9 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-9.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-9",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0206",
+        "csv_row_number": 206,
+        "company_name_original": "Unique Innovations Group 10",
+        "legal_name_original": "Unique Innovations Group 10 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-10.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-10",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0207",
+        "csv_row_number": 207,
+        "company_name_original": "Unique Innovations Group 11",
+        "legal_name_original": "Unique Innovations Group 11 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-11.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-11",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0208",
+        "csv_row_number": 208,
+        "company_name_original": "Unique Innovations Group 12",
+        "legal_name_original": "Unique Innovations Group 12 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-12.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-12",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0209",
+        "csv_row_number": 209,
+        "company_name_original": "Unique Innovations Group 13",
+        "legal_name_original": "Unique Innovations Group 13 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-13.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-13",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0210",
+        "csv_row_number": 210,
+        "company_name_original": "Unique Innovations Group 14",
+        "legal_name_original": "Unique Innovations Group 14 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-14.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-14",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0211",
+        "csv_row_number": 211,
+        "company_name_original": "Unique Innovations Group 15",
+        "legal_name_original": "Unique Innovations Group 15 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-15.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-15",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0212",
+        "csv_row_number": 212,
+        "company_name_original": "Unique Innovations Group 16",
+        "legal_name_original": "Unique Innovations Group 16 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-16.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-16",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0213",
+        "csv_row_number": 213,
+        "company_name_original": "Unique Innovations Group 17",
+        "legal_name_original": "Unique Innovations Group 17 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-17.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-17",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0214",
+        "csv_row_number": 214,
+        "company_name_original": "Unique Innovations Group 18",
+        "legal_name_original": "Unique Innovations Group 18 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-18.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-18",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0215",
+        "csv_row_number": 215,
+        "company_name_original": "Unique Innovations Group 19",
+        "legal_name_original": "Unique Innovations Group 19 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-19.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-19",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0216",
+        "csv_row_number": 216,
+        "company_name_original": "Unique Innovations Group 20",
+        "legal_name_original": "Unique Innovations Group 20 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-20.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-20",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0217",
+        "csv_row_number": 217,
+        "company_name_original": "Unique Innovations Group 21",
+        "legal_name_original": "Unique Innovations Group 21 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-21.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-21",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0218",
+        "csv_row_number": 218,
+        "company_name_original": "Unique Innovations Group 22",
+        "legal_name_original": "Unique Innovations Group 22 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-22.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-22",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0219",
+        "csv_row_number": 219,
+        "company_name_original": "Unique Innovations Group 23",
+        "legal_name_original": "Unique Innovations Group 23 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-23.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-23",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0220",
+        "csv_row_number": 220,
+        "company_name_original": "Unique Innovations Group 24",
+        "legal_name_original": "Unique Innovations Group 24 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-24.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-24",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0221",
+        "csv_row_number": 221,
+        "company_name_original": "Unique Innovations Group 25",
+        "legal_name_original": "Unique Innovations Group 25 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-25.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-25",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0222",
+        "csv_row_number": 222,
+        "company_name_original": "Unique Innovations Group 26",
+        "legal_name_original": "Unique Innovations Group 26 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-26.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-26",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0223",
+        "csv_row_number": 223,
+        "company_name_original": "Unique Innovations Group 27",
+        "legal_name_original": "Unique Innovations Group 27 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-27.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-27",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0224",
+        "csv_row_number": 224,
+        "company_name_original": "Unique Innovations Group 28",
+        "legal_name_original": "Unique Innovations Group 28 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-28.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-28",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0225",
+        "csv_row_number": 225,
+        "company_name_original": "Unique Innovations Group 29",
+        "legal_name_original": "Unique Innovations Group 29 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-29.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-29",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0226",
+        "csv_row_number": 226,
+        "company_name_original": "Unique Innovations Group 30",
+        "legal_name_original": "Unique Innovations Group 30 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-30.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-30",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0227",
+        "csv_row_number": 227,
+        "company_name_original": "Unique Innovations Group 31",
+        "legal_name_original": "Unique Innovations Group 31 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-31.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-31",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0228",
+        "csv_row_number": 228,
+        "company_name_original": "Unique Innovations Group 32",
+        "legal_name_original": "Unique Innovations Group 32 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-32.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-32",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0229",
+        "csv_row_number": 229,
+        "company_name_original": "Unique Innovations Group 33",
+        "legal_name_original": "Unique Innovations Group 33 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-33.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-33",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0230",
+        "csv_row_number": 230,
+        "company_name_original": "Unique Innovations Group 34",
+        "legal_name_original": "Unique Innovations Group 34 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-34.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-34",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0231",
+        "csv_row_number": 231,
+        "company_name_original": "Unique Innovations Group 35",
+        "legal_name_original": "Unique Innovations Group 35 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-35.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-35",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0232",
+        "csv_row_number": 232,
+        "company_name_original": "Unique Innovations Group 36",
+        "legal_name_original": "Unique Innovations Group 36 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-36.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-36",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0233",
+        "csv_row_number": 233,
+        "company_name_original": "Unique Innovations Group 37",
+        "legal_name_original": "Unique Innovations Group 37 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-37.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-37",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0234",
+        "csv_row_number": 234,
+        "company_name_original": "Unique Innovations Group 38",
+        "legal_name_original": "Unique Innovations Group 38 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-38.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-38",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0235",
+        "csv_row_number": 235,
+        "company_name_original": "Unique Innovations Group 39",
+        "legal_name_original": "Unique Innovations Group 39 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-39.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-39",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0236",
+        "csv_row_number": 236,
+        "company_name_original": "Unique Innovations Group 40",
+        "legal_name_original": "Unique Innovations Group 40 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-40.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-40",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0237",
+        "csv_row_number": 237,
+        "company_name_original": "Unique Innovations Group 41",
+        "legal_name_original": "Unique Innovations Group 41 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-41.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-41",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0238",
+        "csv_row_number": 238,
+        "company_name_original": "Unique Innovations Group 42",
+        "legal_name_original": "Unique Innovations Group 42 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-42.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-42",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0239",
+        "csv_row_number": 239,
+        "company_name_original": "Unique Innovations Group 43",
+        "legal_name_original": "Unique Innovations Group 43 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-43.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-43",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0240",
+        "csv_row_number": 240,
+        "company_name_original": "Unique Innovations Group 44",
+        "legal_name_original": "Unique Innovations Group 44 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-44.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-44",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0241",
+        "csv_row_number": 241,
+        "company_name_original": "Unique Innovations Group 45",
+        "legal_name_original": "Unique Innovations Group 45 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-45.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-45",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0242",
+        "csv_row_number": 242,
+        "company_name_original": "Unique Innovations Group 46",
+        "legal_name_original": "Unique Innovations Group 46 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-46.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-46",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0243",
+        "csv_row_number": 243,
+        "company_name_original": "Unique Innovations Group 47",
+        "legal_name_original": "Unique Innovations Group 47 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-47.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-47",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0244",
+        "csv_row_number": 244,
+        "company_name_original": "Unique Innovations Group 48",
+        "legal_name_original": "Unique Innovations Group 48 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-48.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-48",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0245",
+        "csv_row_number": 245,
+        "company_name_original": "Unique Innovations Group 49",
+        "legal_name_original": "Unique Innovations Group 49 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-49.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-49",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0246",
+        "csv_row_number": 246,
+        "company_name_original": "Unique Innovations Group 50",
+        "legal_name_original": "Unique Innovations Group 50 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-50.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-50",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0247",
+        "csv_row_number": 247,
+        "company_name_original": "Unique Innovations Group 51",
+        "legal_name_original": "Unique Innovations Group 51 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-51.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-51",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0248",
+        "csv_row_number": 248,
+        "company_name_original": "Unique Innovations Group 52",
+        "legal_name_original": "Unique Innovations Group 52 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-52.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-52",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0249",
+        "csv_row_number": 249,
+        "company_name_original": "Unique Innovations Group 53",
+        "legal_name_original": "Unique Innovations Group 53 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-53.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-53",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0250",
+        "csv_row_number": 250,
+        "company_name_original": "Unique Innovations Group 54",
+        "legal_name_original": "Unique Innovations Group 54 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-54.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-54",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0251",
+        "csv_row_number": 251,
+        "company_name_original": "Unique Innovations Group 55",
+        "legal_name_original": "Unique Innovations Group 55 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-55.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-55",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0252",
+        "csv_row_number": 252,
+        "company_name_original": "Unique Innovations Group 56",
+        "legal_name_original": "Unique Innovations Group 56 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-56.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-56",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0253",
+        "csv_row_number": 253,
+        "company_name_original": "Unique Innovations Group 57",
+        "legal_name_original": "Unique Innovations Group 57 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-57.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-57",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0254",
+        "csv_row_number": 254,
+        "company_name_original": "Unique Innovations Group 58",
+        "legal_name_original": "Unique Innovations Group 58 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-58.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-58",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0255",
+        "csv_row_number": 255,
+        "company_name_original": "Unique Innovations Group 59",
+        "legal_name_original": "Unique Innovations Group 59 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-59.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-59",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0256",
+        "csv_row_number": 256,
+        "company_name_original": "Unique Innovations Group 60",
+        "legal_name_original": "Unique Innovations Group 60 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-60.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-60",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0257",
+        "csv_row_number": 257,
+        "company_name_original": "Unique Innovations Group 61",
+        "legal_name_original": "Unique Innovations Group 61 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-61.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-61",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0258",
+        "csv_row_number": 258,
+        "company_name_original": "Unique Innovations Group 62",
+        "legal_name_original": "Unique Innovations Group 62 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-62.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-62",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0259",
+        "csv_row_number": 259,
+        "company_name_original": "Unique Innovations Group 63",
+        "legal_name_original": "Unique Innovations Group 63 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-63.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-63",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0260",
+        "csv_row_number": 260,
+        "company_name_original": "Unique Innovations Group 64",
+        "legal_name_original": "Unique Innovations Group 64 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-64.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-64",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0261",
+        "csv_row_number": 261,
+        "company_name_original": "Unique Innovations Group 65",
+        "legal_name_original": "Unique Innovations Group 65 Inc.",
+        "web_domain_original": "https://www.unique-innovations-group-65.biz/about",
+        "linkedin_url_original": "https://www.linkedin.com/company/unique-innovations-group-65",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0262",
+        "csv_row_number": 262,
+        "company_name_original": "Partial Data Corp 1",
+        "legal_name_original": null,
+        "web_domain_original": "missing-legal-name-co-1.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-legal-name-co-1",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0263",
+        "csv_row_number": 263,
+        "company_name_original": "Partial Data Corp 2",
+        "legal_name_original": null,
+        "web_domain_original": "missing-legal-name-co-2.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-legal-name-co-2",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0264",
+        "csv_row_number": 264,
+        "company_name_original": "Partial Data Corp 3",
+        "legal_name_original": null,
+        "web_domain_original": "missing-legal-name-co-3.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-legal-name-co-3",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0265",
+        "csv_row_number": 265,
+        "company_name_original": "Partial Data Corp 4",
+        "legal_name_original": null,
+        "web_domain_original": "missing-legal-name-co-4.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-legal-name-co-4",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0266",
+        "csv_row_number": 266,
+        "company_name_original": "Partial Data Corp 5",
+        "legal_name_original": null,
+        "web_domain_original": "missing-legal-name-co-5.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-legal-name-co-5",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0267",
+        "csv_row_number": 267,
+        "company_name_original": null,
+        "legal_name_original": "Partial Legal Only Enterprises 1 LLC",
+        "web_domain_original": "missing-company-name-co-1.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-company-name-co-1",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0268",
+        "csv_row_number": 268,
+        "company_name_original": null,
+        "legal_name_original": "Partial Legal Only Enterprises 2 LLC",
+        "web_domain_original": "missing-company-name-co-2.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-company-name-co-2",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0269",
+        "csv_row_number": 269,
+        "company_name_original": null,
+        "legal_name_original": "Partial Legal Only Enterprises 3 LLC",
+        "web_domain_original": "missing-company-name-co-3.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-company-name-co-3",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0270",
+        "csv_row_number": 270,
+        "company_name_original": null,
+        "legal_name_original": "Partial Legal Only Enterprises 4 LLC",
+        "web_domain_original": "missing-company-name-co-4.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-company-name-co-4",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0271",
+        "csv_row_number": 271,
+        "company_name_original": null,
+        "legal_name_original": "Partial Legal Only Enterprises 5 LLC",
+        "web_domain_original": "missing-company-name-co-5.net",
+        "linkedin_url_original": "https://www.linkedin.com/company/missing-company-name-co-5",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0272",
+        "csv_row_number": 272,
+        "company_name_original": "Offline Enterprise Entity 1",
+        "legal_name_original": "Offline Enterprise Entity 1 Corporation",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0273",
+        "csv_row_number": 273,
+        "company_name_original": "Offline Enterprise Entity 2",
+        "legal_name_original": "Offline Enterprise Entity 2 Corporation",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0274",
+        "csv_row_number": 274,
+        "company_name_original": "Offline Enterprise Entity 3",
+        "legal_name_original": "Offline Enterprise Entity 3 Corporation",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0275",
+        "csv_row_number": 275,
+        "company_name_original": "Offline Enterprise Entity 4",
+        "legal_name_original": "Offline Enterprise Entity 4 Corporation",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0276",
+        "csv_row_number": 276,
+        "company_name_original": "Offline Enterprise Entity 5",
+        "legal_name_original": "Offline Enterprise Entity 5 Corporation",
+        "web_domain_original": null,
+        "linkedin_url_original": null,
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0277",
+        "csv_row_number": 277,
+        "company_name_original": null,
+        "legal_name_original": null,
+        "web_domain_original": "unusable-name-co-1.com",
+        "linkedin_url_original": "https://www.linkedin.com/company/unusable-1",
+        "record_validation_status": "rejected",
+        "validation_errors": [
+          "Both company_name and legal_name are unusable or missing."
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0278",
+        "csv_row_number": 278,
+        "company_name_original": null,
+        "legal_name_original": null,
+        "web_domain_original": "unusable-name-co-2.com",
+        "linkedin_url_original": "https://www.linkedin.com/company/unusable-2",
+        "record_validation_status": "rejected",
+        "validation_errors": [
+          "Both company_name and legal_name are unusable or missing."
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0279",
+        "csv_row_number": 279,
+        "company_name_original": null,
+        "legal_name_original": null,
+        "web_domain_original": "unusable-name-co-3.com",
+        "linkedin_url_original": "https://www.linkedin.com/company/unusable-3",
+        "record_validation_status": "rejected",
+        "validation_errors": [
+          "Both company_name and legal_name are unusable or missing."
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0280",
+        "csv_row_number": 280,
+        "company_name_original": null,
+        "legal_name_original": null,
+        "web_domain_original": "unusable-name-co-4.com",
+        "linkedin_url_original": "https://www.linkedin.com/company/unusable-4",
+        "record_validation_status": "rejected",
+        "validation_errors": [
+          "Both company_name and legal_name are unusable or missing."
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0281",
+        "csv_row_number": 281,
+        "company_name_original": null,
+        "legal_name_original": null,
+        "web_domain_original": "unusable-name-co-5.com",
+        "linkedin_url_original": "https://www.linkedin.com/company/unusable-5",
+        "record_validation_status": "rejected",
+        "validation_errors": [
+          "Both company_name and legal_name are unusable or missing."
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0282",
+        "csv_row_number": 282,
+        "company_name_original": "=cmd|' /C calc'!A0 Formula Corp 1",
+        "legal_name_original": "=cmd|' /C calc'!A0 Formula Corp 1 LLC",
+        "web_domain_original": "formula-test-1.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/formula-test-1",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0283",
+        "csv_row_number": 283,
+        "company_name_original": "+123456789 Formula Corp 2",
+        "legal_name_original": "+123456789 Formula Corp 2 LLC",
+        "web_domain_original": "formula-test-2.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/formula-test-2",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0284",
+        "csv_row_number": 284,
+        "company_name_original": "-SUM(A1:A10) Formula Corp 3",
+        "legal_name_original": "-SUM(A1:A10) Formula Corp 3 LLC",
+        "web_domain_original": "formula-test-3.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/formula-test-3",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0285",
+        "csv_row_number": 285,
+        "company_name_original": "@echo off Formula Corp 4",
+        "legal_name_original": "@echo off Formula Corp 4 LLC",
+        "web_domain_original": "formula-test-4.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/formula-test-4",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0286",
+        "csv_row_number": 286,
+        "company_name_original": "TabPrefixedCompany Formula Corp 5",
+        "legal_name_original": "TabPrefixedCompany Formula Corp 5 LLC",
+        "web_domain_original": "formula-test-5.org",
+        "linkedin_url_original": "https://www.linkedin.com/company/formula-test-5",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0287",
+        "csv_row_number": 287,
+        "company_name_original": "Meridian Systems",
+        "legal_name_original": "Meridian Systems LLC",
+        "web_domain_original": "HTTPS://WWW.MERIDIAN-SYSTEMS.EXAMPLE/about/team?ref=partner#mission",
+        "linkedin_url_original": "HTTPS://WWW.LINKEDIN.COM/COMPANY/MERIDIAN-SYSTEMS/",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0288",
+        "csv_row_number": 288,
+        "company_name_original": "Genesis Systems",
+        "legal_name_original": "Genesis Systems Ltd.",
+        "web_domain_original": "HTTPS://WWW.GENESIS-SYSTEMS.EXAMPLE/about/team?ref=partner#mission",
+        "linkedin_url_original": "HTTPS://WWW.LINKEDIN.COM/COMPANY/GENESIS-SYSTEMS/",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0289",
+        "csv_row_number": 289,
+        "company_name_original": "Genesis Systems",
+        "legal_name_original": "Genesis Systems Corporation",
+        "web_domain_original": "HTTPS://WWW.GENESIS-SYSTEMS.EXAMPLE/about/team?ref=partner#mission",
+        "linkedin_url_original": "HTTPS://WWW.LINKEDIN.COM/COMPANY/GENESIS-SYSTEMS/",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0290",
+        "csv_row_number": 290,
+        "company_name_original": "Starlight Energy",
+        "legal_name_original": "Starlight Energy LLC",
+        "web_domain_original": "HTTPS://WWW.STARLIGHT-ENERGY.EXAMPLE/about/team?ref=partner#mission",
+        "linkedin_url_original": "HTTPS://WWW.LINKEDIN.COM/COMPANY/STARLIGHT-ENERGY/",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0291",
+        "csv_row_number": 291,
+        "company_name_original": "Starlight Energy",
+        "legal_name_original": "Starlight Energy Inc.",
+        "web_domain_original": "HTTPS://WWW.STARLIGHT-ENERGY.EXAMPLE/about/team?ref=partner#mission",
+        "linkedin_url_original": "HTTPS://WWW.LINKEDIN.COM/COMPANY/STARLIGHT-ENERGY/",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0292",
+        "csv_row_number": 292,
+        "company_name_original": "Caf\u00e9 M\u00fcller",
+        "legal_name_original": "Caf\u00e9 M\u00fcller Technologies GmbH",
+        "web_domain_original": "cafe-muller-tech.de",
+        "linkedin_url_original": "https://www.linkedin.com/company/cafe-muller-tech",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0293",
+        "csv_row_number": 293,
+        "company_name_original": "Z\u00fcrich Capital",
+        "legal_name_original": "Z\u00fcrich Capital Partners S.A.",
+        "web_domain_original": "zurich-capital.ch",
+        "linkedin_url_original": "https://www.linkedin.com/company/zurich-capital",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0294",
+        "csv_row_number": 294,
+        "company_name_original": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale de l'Est",
+        "legal_name_original": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale de l'Est S.A.S.",
+        "web_domain_original": "sgest-solutions.fr",
+        "linkedin_url_original": "https://www.linkedin.com/company/sgest-solutions",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0295",
+        "csv_row_number": 295,
+        "company_name_original": "S\u00e3o Paulo Log\u00edstica",
+        "legal_name_original": "S\u00e3o Paulo Log\u00edstica e Transportes Ltda.",
+        "web_domain_original": "sp-logistica.br",
+        "linkedin_url_original": "https://www.linkedin.com/company/sp-logistica",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0296",
+        "csv_row_number": 296,
+        "company_name_original": "Nordic F\u00f6rs\u00e4kring",
+        "legal_name_original": "Nordic F\u00f6rs\u00e4kring & Finans AB",
+        "web_domain_original": "nordic-forsakring.se",
+        "linkedin_url_original": "https://www.linkedin.com/company/nordic-forsakring",
+        "record_validation_status": "accepted",
+        "validation_errors": []
+      },
+      {
+        "upload_record_id": "ROW-0297",
+        "csv_row_number": 297,
+        "company_name_original": "Malformed URL Entity 1",
+        "legal_name_original": "Malformed URL Entity 1 LLC",
+        "web_domain_original": "not-a-valid-tld-domain",
+        "linkedin_url_original": "https://www.linkedin.com/in/malformed-url-corp-1-founder-personal",
+        "record_validation_status": "accepted",
+        "validation_errors": [
+          "Invalid website domain: 'not-a-valid-tld-domain'",
+          "Invalid LinkedIn URL: 'https://www.linkedin.com/in/malformed-url-corp-1-founder-personal'"
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0298",
+        "csv_row_number": 298,
+        "company_name_original": "Malformed URL Entity 2",
+        "legal_name_original": "Malformed URL Entity 2 LLC",
+        "web_domain_original": "not-a-valid-tld-domain",
+        "linkedin_url_original": "https://www.linkedin.com/in/malformed-url-corp-2-founder-personal",
+        "record_validation_status": "accepted",
+        "validation_errors": [
+          "Invalid website domain: 'not-a-valid-tld-domain'",
+          "Invalid LinkedIn URL: 'https://www.linkedin.com/in/malformed-url-corp-2-founder-personal'"
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0299",
+        "csv_row_number": 299,
+        "company_name_original": "Malformed URL Entity 3",
+        "legal_name_original": "Malformed URL Entity 3 LLC",
+        "web_domain_original": "not-a-valid-tld-domain",
+        "linkedin_url_original": "https://www.linkedin.com/in/malformed-url-corp-3-founder-personal",
+        "record_validation_status": "accepted",
+        "validation_errors": [
+          "Invalid website domain: 'not-a-valid-tld-domain'",
+          "Invalid LinkedIn URL: 'https://www.linkedin.com/in/malformed-url-corp-3-founder-personal'"
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0300",
+        "csv_row_number": 300,
+        "company_name_original": "Malformed URL Entity 4",
+        "legal_name_original": "Malformed URL Entity 4 LLC",
+        "web_domain_original": "not-a-valid-tld-domain",
+        "linkedin_url_original": "https://www.linkedin.com/in/malformed-url-corp-4-founder-personal",
+        "record_validation_status": "accepted",
+        "validation_errors": [
+          "Invalid website domain: 'not-a-valid-tld-domain'",
+          "Invalid LinkedIn URL: 'https://www.linkedin.com/in/malformed-url-corp-4-founder-personal'"
+        ]
+      },
+      {
+        "upload_record_id": "ROW-0301",
+        "csv_row_number": 301,
+        "company_name_original": "Malformed URL Entity 5",
+        "legal_name_original": "Malformed URL Entity 5 LLC",
+        "web_domain_original": "not-a-valid-tld-domain",
+        "linkedin_url_original": "https://www.linkedin.com/in/malformed-url-corp-5-founder-personal",
+        "record_validation_status": "accepted",
+        "validation_errors": [
+          "Invalid website domain: 'not-a-valid-tld-domain'",
+          "Invalid LinkedIn URL: 'https://www.linkedin.com/in/malformed-url-corp-5-founder-personal'"
+        ]
+      }
+    ]
+  },
+  "comparison": {
+    "run_id": "RUN-1B09AC52",
+    "run_status": "completed",
+    "candidate_pairs_count": 7301,
+    "fuzzy_threshold": 80.0,
+    "started_at": "2026-11-23T13:59:20.511195+00:00",
+    "completed_at": "2026-11-23T13:59:21.955553+00:00"
+  },
+  "ui_sections": {
+    "exact_count": 132,
+    "potential_count": 85,
+    "other_count": 7084,
+    "ready_count": 88
+  },
+  "review_history_count": 2,
+  "exports": {
+    "uploaded_summary_rows": 300,
+    "master_summary_rows": 919,
+    "candidate_details_rows": 7301
+  },
+  "overall_accuracy": 56.333333333333336,
+  "category_evaluation": {
+    "exact_duplicate": {
+      "total_rows": 50,
+      "correct_retrieval": 21,
+      "rule_matches": 21,
+      "false_positives": 0,
+      "details": [
+        "Row 1 target 1 not matched as BR-01",
+        "Row 3 target 3 not matched as BR-01",
+        "Row 6 target 6 not matched as BR-01",
+        "Row 8 target 8 not matched as BR-01",
+        "Row 11 target 11 not matched as BR-01",
+        "Row 13 target 13 not matched as BR-01",
+        "Row 15 target 17 not matched as BR-01",
+        "Row 16 target 19 not matched as BR-01",
+        "Row 17 target 21 not matched as BR-01",
+        "Row 18 target 22 not matched as BR-01",
+        "Row 19 target 23 not matched as BR-01",
+        "Row 20 target 24 not matched as BR-01",
+        "Row 21 target 26 not matched as BR-01",
+        "Row 22 target 27 not matched as BR-01",
+        "Row 24 target 29 not matched as BR-01",
+        "Row 26 target 31 not matched as BR-01",
+        "Row 27 target 33 not matched as BR-01",
+        "Row 28 target 35 not matched as BR-01",
+        "Row 30 target 37 not matched as BR-01",
+        "Row 32 target 39 not matched as BR-01",
+        "Row 34 target 41 not matched as BR-01",
+        "Row 36 target 43 not matched as BR-01",
+        "Row 38 target 45 not matched as BR-01",
+        "Row 40 target 47 not matched as BR-01",
+        "Row 42 target 49 not matched as BR-01",
+        "Row 44 target 51 not matched as BR-01",
+        "Row 47 target 54 not matched as BR-01",
+        "Row 49 target 58 not matched as BR-01",
+        "Row 50 target 60 not matched as BR-01"
+      ]
+    },
+    "website_only_match": {
+      "total_rows": 35,
+      "correct_retrieval": 16,
+      "rule_matches": 16,
+      "false_positives": 0,
+      "details": [
+        "Row 51 target 62 not matched as BR-02",
+        "Row 54 target 65 not matched as BR-02",
+        "Row 55 target 66 not matched as BR-02",
+        "Row 56 target 68 not matched as BR-02",
+        "Row 57 target 69 not matched as BR-02",
+        "Row 59 target 71 not matched as BR-02",
+        "Row 61 target 73 not matched as BR-02",
+        "Row 62 target 75 not matched as BR-02",
+        "Row 63 target 77 not matched as BR-02",
+        "Row 65 target 79 not matched as BR-02",
+        "Row 69 target 83 not matched as BR-02",
+        "Row 71 target 85 not matched as BR-02",
+        "Row 73 target 87 not matched as BR-02",
+        "Row 75 target 89 not matched as BR-02",
+        "Row 77 target 91 not matched as BR-02",
+        "Row 79 target 93 not matched as BR-02",
+        "Row 81 target 95 not matched as BR-02",
+        "Row 83 target 97 not matched as BR-02",
+        "Row 85 target 101 not matched as BR-02"
+      ]
+    },
+    "linkedin_only_match": {
+      "total_rows": 35,
+      "correct_retrieval": 14,
+      "rule_matches": 14,
+      "false_positives": 0,
+      "details": [
+        "Row 86 target 103 not matched as BR-03",
+        "Row 87 target 105 not matched as BR-03",
+        "Row 88 target 106 not matched as BR-03",
+        "Row 89 target 107 not matched as BR-03",
+        "Row 91 target 110 not matched as BR-03",
+        "Row 92 target 111 not matched as BR-03",
+        "Row 94 target 113 not matched as BR-03",
+        "Row 96 target 115 not matched as BR-03",
+        "Row 97 target 117 not matched as BR-03",
+        "Row 98 target 119 not matched as BR-03",
+        "Row 100 target 121 not matched as BR-03",
+        "Row 103 target 124 not matched as BR-03",
+        "Row 105 target 126 not matched as BR-03",
+        "Row 107 target 128 not matched as BR-03",
+        "Row 109 target 130 not matched as BR-03",
+        "Row 111 target 132 not matched as BR-03",
+        "Row 113 target 134 not matched as BR-03",
+        "Row 115 target 136 not matched as BR-03",
+        "Row 117 target 138 not matched as BR-03",
+        "Row 119 target 142 not matched as BR-03",
+        "Row 120 target 144 not matched as BR-03"
+      ]
+    },
+    "fuzzy_80_legal_name": {
+      "total_rows": 40,
+      "correct_retrieval": 4,
+      "rule_matches": 4,
+      "false_positives": 0,
+      "details": [
+        "Row 121 target 15 not matched as BR-07",
+        "Row 122 target 16 not matched as BR-07",
+        "Row 123 target 25 not matched as BR-07",
+        "Row 124 target 56 not matched as BR-07",
+        "Row 126 target 67 not matched as BR-07",
+        "Row 127 target 99 not matched as BR-07",
+        "Row 129 target 109 not matched as BR-07",
+        "Row 130 target 140 not matched as BR-07",
+        "Row 132 target 150 not matched as BR-07",
+        "Row 133 target 182 not matched as BR-07",
+        "Row 134 target 183 not matched as BR-07",
+        "Row 135 target 192 not matched as BR-07",
+        "Row 136 target 224 not matched as BR-07",
+        "Row 137 target 225 not matched as BR-07",
+        "Row 138 target 236 not matched as BR-07",
+        "Row 139 target 266 not matched as BR-07",
+        "Row 141 target 276 not matched as BR-07",
+        "Row 142 target 309 not matched as BR-07",
+        "Row 143 target 310 not matched as BR-07",
+        "Row 144 target 319 not matched as BR-07",
+        "Row 145 target 353 not matched as BR-07",
+        "Row 146 target 354 not matched as BR-07",
+        "Row 147 target 363 not matched as BR-07",
+        "Row 148 target 396 not matched as BR-07",
+        "Row 149 target 397 not matched as BR-07",
+        "Row 150 target 406 not matched as BR-07",
+        "Row 151 target 630 not matched as BR-07",
+        "Row 152 target 1508 not matched as BR-07",
+        "Row 153 target 1533 not matched as BR-07",
+        "Row 154 target 1636 not matched as BR-07",
+        "Row 155 target 1698 not matched as BR-07",
+        "Row 156 target 1756 not matched as BR-07",
+        "Row 157 target 2300 not matched as BR-07",
+        "Row 158 target 2459 not matched as BR-07",
+        "Row 159 target 2498 not matched as BR-07",
+        "Row 160 target 2516 not matched as BR-07"
+      ]
+    },
+    "conflict_domain_match_linkedin_conflict": {
+      "total_rows": 10,
+      "correct_retrieval": 3,
+      "rule_matches": 3,
+      "false_positives": 0,
+      "details": [
+        "Row 161 target 146 not matched as conflict",
+        "Row 163 target 148 not matched as conflict",
+        "Row 164 target 149 not matched as conflict",
+        "Row 165 target 151 not matched as conflict",
+        "Row 166 target 152 not matched as conflict",
+        "Row 168 target 154 not matched as conflict",
+        "Row 170 target 156 not matched as conflict"
+      ]
+    },
+    "conflict_domain_conflict_linkedin_match": {
+      "total_rows": 10,
+      "correct_retrieval": 5,
+      "rule_matches": 5,
+      "false_positives": 0,
+      "details": [
+        "Row 171 target 158 not matched as conflict",
+        "Row 172 target 160 not matched as conflict",
+        "Row 174 target 162 not matched as conflict",
+        "Row 176 target 164 not matched as conflict",
+        "Row 178 target 166 not matched as conflict"
+      ]
+    },
+    "look_alike_hard_negative": {
+      "total_rows": 15,
+      "correct_retrieval": 15,
+      "rule_matches": 15,
+      "false_positives": 0,
+      "details": []
+    },
+    "unique_record": {
+      "total_rows": 65,
+      "correct_retrieval": 64,
+      "rule_matches": 64,
+      "false_positives": 40,
+      "details": [
+        "Row 196 produced unexpected candidate(s): [60, 61, 83, 84, 95, 96, 156, 157, 176, 198, 199, 220, 221, 258, 259, 305, 306, 319, 320, 333, 334, 335, 336, 337, 338, 415, 416, 430, 431, 453, 467, 575, 665, 694, 768, 807, 811, 836, 842, 871]"
+      ]
+    },
+    "missing_legal_name": {
+      "total_rows": 5,
+      "correct_retrieval": 5,
+      "rule_matches": 5,
+      "false_positives": 0,
+      "details": []
+    },
+    "missing_company_name": {
+      "total_rows": 5,
+      "correct_retrieval": 5,
+      "rule_matches": 5,
+      "false_positives": 0,
+      "details": []
+    },
+    "missing_all_identifiers": {
+      "total_rows": 5,
+      "correct_retrieval": 1,
+      "rule_matches": 1,
+      "false_positives": 80,
+      "details": [
+        "Row 272 unexpected candidates: [8, 9, 10, 29, 30, 51, 52, 53, 69, 70, 93, 94, 113, 114, 178, 179, 190, 191, 209, 210]",
+        "Row 273 unexpected candidates: [8, 9, 10, 29, 30, 51, 52, 53, 69, 70, 93, 94, 113, 114, 178, 179, 190, 191, 209, 210]",
+        "Row 274 unexpected candidates: [8, 9, 10, 29, 30, 51, 52, 53, 69, 70, 93, 94, 113, 114, 178, 179, 190, 191, 209, 210]",
+        "Row 275 unexpected candidates: [8, 9, 10, 29, 30, 51, 52, 53, 69, 70, 93, 94, 113, 114, 178, 179, 190, 191, 209, 210]"
+      ]
+    },
+    "rejected_unusable_names": {
+      "total_rows": 5,
+      "correct_retrieval": 4,
+      "rule_matches": 4,
+      "false_positives": 0,
+      "details": [
+        "Row 276 was not rejected as expected"
+      ]
+    },
+    "formula_injection_defense": {
+      "total_rows": 5,
+      "correct_retrieval": 3,
+      "rule_matches": 3,
+      "false_positives": 20,
+      "details": [
+        "Row 285 unexpected candidates: [8, 9, 10, 15, 16, 196, 197, 309, 310, 394, 395, 510, 511, 525, 533, 567, 587, 678, 685, 725]"
+      ]
+    },
+    "url_normalization_variation": {
+      "total_rows": 5,
+      "correct_retrieval": 2,
+      "rule_matches": 2,
+      "false_positives": 0,
+      "details": [
+        "Row 286 target 169 not normalized to match",
+        "Row 287 target 170 not normalized to match",
+        "Row 289 target 172 not normalized to match"
+      ]
+    },
+    "unicode_and_diacritics": {
+      "total_rows": 5,
+      "correct_retrieval": 3,
+      "rule_matches": 3,
+      "false_positives": 57,
+      "details": [
+        "Row 291 unexpected candidates: [54, 55, 99, 100, 172, 173, 256, 257, 282, 283, 284, 285, 333, 334, 335, 344, 345, 451, 478, 484, 492, 496, 509, 517, 541, 543, 591, 638, 673, 739, 765, 774, 775, 833, 915, 924, 962]",
+        "Row 293 unexpected candidates: [31, 32, 47, 48, 65, 66, 73, 74, 148, 149, 244, 245, 372, 373, 428, 546, 679, 684, 714, 765]"
+      ]
+    },
+    "malformed_url_identifiers": {
+      "total_rows": 5,
+      "correct_retrieval": 4,
+      "rule_matches": 4,
+      "false_positives": 0,
+      "details": []
+    }
+  }
+}

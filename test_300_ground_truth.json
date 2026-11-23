@@ -1,0 +1,2405 @@
+{
+  "total_rows": 300,
+  "expected_rows": [
+    {
+      "row_number": 1,
+      "category": "exact_duplicate",
+      "target_entity_id": 1,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 2,
+      "category": "exact_duplicate",
+      "target_entity_id": 2,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 3,
+      "category": "exact_duplicate",
+      "target_entity_id": 3,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 4,
+      "category": "exact_duplicate",
+      "target_entity_id": 4,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 5,
+      "category": "exact_duplicate",
+      "target_entity_id": 5,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 6,
+      "category": "exact_duplicate",
+      "target_entity_id": 6,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 7,
+      "category": "exact_duplicate",
+      "target_entity_id": 7,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 8,
+      "category": "exact_duplicate",
+      "target_entity_id": 8,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 9,
+      "category": "exact_duplicate",
+      "target_entity_id": 9,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 10,
+      "category": "exact_duplicate",
+      "target_entity_id": 10,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 11,
+      "category": "exact_duplicate",
+      "target_entity_id": 11,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 12,
+      "category": "exact_duplicate",
+      "target_entity_id": 12,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 13,
+      "category": "exact_duplicate",
+      "target_entity_id": 13,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 14,
+      "category": "exact_duplicate",
+      "target_entity_id": 14,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 15,
+      "category": "exact_duplicate",
+      "target_entity_id": 17,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 16,
+      "category": "exact_duplicate",
+      "target_entity_id": 19,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 17,
+      "category": "exact_duplicate",
+      "target_entity_id": 21,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 18,
+      "category": "exact_duplicate",
+      "target_entity_id": 22,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 19,
+      "category": "exact_duplicate",
+      "target_entity_id": 23,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 20,
+      "category": "exact_duplicate",
+      "target_entity_id": 24,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 21,
+      "category": "exact_duplicate",
+      "target_entity_id": 26,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 22,
+      "category": "exact_duplicate",
+      "target_entity_id": 27,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 23,
+      "category": "exact_duplicate",
+      "target_entity_id": 28,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 24,
+      "category": "exact_duplicate",
+      "target_entity_id": 29,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 25,
+      "category": "exact_duplicate",
+      "target_entity_id": 30,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 26,
+      "category": "exact_duplicate",
+      "target_entity_id": 31,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 27,
+      "category": "exact_duplicate",
+      "target_entity_id": 33,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 28,
+      "category": "exact_duplicate",
+      "target_entity_id": 35,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 29,
+      "category": "exact_duplicate",
+      "target_entity_id": 36,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 30,
+      "category": "exact_duplicate",
+      "target_entity_id": 37,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 31,
+      "category": "exact_duplicate",
+      "target_entity_id": 38,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 32,
+      "category": "exact_duplicate",
+      "target_entity_id": 39,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 33,
+      "category": "exact_duplicate",
+      "target_entity_id": 40,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 34,
+      "category": "exact_duplicate",
+      "target_entity_id": 41,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 35,
+      "category": "exact_duplicate",
+      "target_entity_id": 42,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 36,
+      "category": "exact_duplicate",
+      "target_entity_id": 43,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 37,
+      "category": "exact_duplicate",
+      "target_entity_id": 44,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 38,
+      "category": "exact_duplicate",
+      "target_entity_id": 45,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 39,
+      "category": "exact_duplicate",
+      "target_entity_id": 46,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 40,
+      "category": "exact_duplicate",
+      "target_entity_id": 47,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 41,
+      "category": "exact_duplicate",
+      "target_entity_id": 48,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 42,
+      "category": "exact_duplicate",
+      "target_entity_id": 49,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 43,
+      "category": "exact_duplicate",
+      "target_entity_id": 50,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 44,
+      "category": "exact_duplicate",
+      "target_entity_id": 51,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 45,
+      "category": "exact_duplicate",
+      "target_entity_id": 52,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 46,
+      "category": "exact_duplicate",
+      "target_entity_id": 53,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 47,
+      "category": "exact_duplicate",
+      "target_entity_id": 54,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 48,
+      "category": "exact_duplicate",
+      "target_entity_id": 55,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 49,
+      "category": "exact_duplicate",
+      "target_entity_id": 58,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 50,
+      "category": "exact_duplicate",
+      "target_entity_id": 60,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 51,
+      "category": "website_only_match",
+      "target_entity_id": 62,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 52,
+      "category": "website_only_match",
+      "target_entity_id": 63,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 53,
+      "category": "website_only_match",
+      "target_entity_id": 64,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 54,
+      "category": "website_only_match",
+      "target_entity_id": 65,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 55,
+      "category": "website_only_match",
+      "target_entity_id": 66,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 56,
+      "category": "website_only_match",
+      "target_entity_id": 68,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 57,
+      "category": "website_only_match",
+      "target_entity_id": 69,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 58,
+      "category": "website_only_match",
+      "target_entity_id": 70,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 59,
+      "category": "website_only_match",
+      "target_entity_id": 71,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 60,
+      "category": "website_only_match",
+      "target_entity_id": 72,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 61,
+      "category": "website_only_match",
+      "target_entity_id": 73,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 62,
+      "category": "website_only_match",
+      "target_entity_id": 75,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 63,
+      "category": "website_only_match",
+      "target_entity_id": 77,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 64,
+      "category": "website_only_match",
+      "target_entity_id": 78,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 65,
+      "category": "website_only_match",
+      "target_entity_id": 79,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 66,
+      "category": "website_only_match",
+      "target_entity_id": 80,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 67,
+      "category": "website_only_match",
+      "target_entity_id": 81,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 68,
+      "category": "website_only_match",
+      "target_entity_id": 82,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 69,
+      "category": "website_only_match",
+      "target_entity_id": 83,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 70,
+      "category": "website_only_match",
+      "target_entity_id": 84,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 71,
+      "category": "website_only_match",
+      "target_entity_id": 85,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 72,
+      "category": "website_only_match",
+      "target_entity_id": 86,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 73,
+      "category": "website_only_match",
+      "target_entity_id": 87,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 74,
+      "category": "website_only_match",
+      "target_entity_id": 88,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 75,
+      "category": "website_only_match",
+      "target_entity_id": 89,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 76,
+      "category": "website_only_match",
+      "target_entity_id": 90,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 77,
+      "category": "website_only_match",
+      "target_entity_id": 91,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 78,
+      "category": "website_only_match",
+      "target_entity_id": 92,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 79,
+      "category": "website_only_match",
+      "target_entity_id": 93,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 80,
+      "category": "website_only_match",
+      "target_entity_id": 94,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 81,
+      "category": "website_only_match",
+      "target_entity_id": 95,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 82,
+      "category": "website_only_match",
+      "target_entity_id": 96,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 83,
+      "category": "website_only_match",
+      "target_entity_id": 97,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 84,
+      "category": "website_only_match",
+      "target_entity_id": 98,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 85,
+      "category": "website_only_match",
+      "target_entity_id": 101,
+      "expected_rule": "BR-02",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 86,
+      "category": "linkedin_only_match",
+      "target_entity_id": 103,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 87,
+      "category": "linkedin_only_match",
+      "target_entity_id": 105,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 88,
+      "category": "linkedin_only_match",
+      "target_entity_id": 106,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 89,
+      "category": "linkedin_only_match",
+      "target_entity_id": 107,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 90,
+      "category": "linkedin_only_match",
+      "target_entity_id": 108,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 91,
+      "category": "linkedin_only_match",
+      "target_entity_id": 110,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 92,
+      "category": "linkedin_only_match",
+      "target_entity_id": 111,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 93,
+      "category": "linkedin_only_match",
+      "target_entity_id": 112,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 94,
+      "category": "linkedin_only_match",
+      "target_entity_id": 113,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 95,
+      "category": "linkedin_only_match",
+      "target_entity_id": 114,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 96,
+      "category": "linkedin_only_match",
+      "target_entity_id": 115,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 97,
+      "category": "linkedin_only_match",
+      "target_entity_id": 117,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 98,
+      "category": "linkedin_only_match",
+      "target_entity_id": 119,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 99,
+      "category": "linkedin_only_match",
+      "target_entity_id": 120,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 100,
+      "category": "linkedin_only_match",
+      "target_entity_id": 121,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 101,
+      "category": "linkedin_only_match",
+      "target_entity_id": 122,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 102,
+      "category": "linkedin_only_match",
+      "target_entity_id": 123,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 103,
+      "category": "linkedin_only_match",
+      "target_entity_id": 124,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 104,
+      "category": "linkedin_only_match",
+      "target_entity_id": 125,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 105,
+      "category": "linkedin_only_match",
+      "target_entity_id": 126,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 106,
+      "category": "linkedin_only_match",
+      "target_entity_id": 127,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 107,
+      "category": "linkedin_only_match",
+      "target_entity_id": 128,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 108,
+      "category": "linkedin_only_match",
+      "target_entity_id": 129,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 109,
+      "category": "linkedin_only_match",
+      "target_entity_id": 130,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 110,
+      "category": "linkedin_only_match",
+      "target_entity_id": 131,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 111,
+      "category": "linkedin_only_match",
+      "target_entity_id": 132,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 112,
+      "category": "linkedin_only_match",
+      "target_entity_id": 133,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 113,
+      "category": "linkedin_only_match",
+      "target_entity_id": 134,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 114,
+      "category": "linkedin_only_match",
+      "target_entity_id": 135,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 115,
+      "category": "linkedin_only_match",
+      "target_entity_id": 136,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 116,
+      "category": "linkedin_only_match",
+      "target_entity_id": 137,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 117,
+      "category": "linkedin_only_match",
+      "target_entity_id": 138,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 118,
+      "category": "linkedin_only_match",
+      "target_entity_id": 139,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 119,
+      "category": "linkedin_only_match",
+      "target_entity_id": 142,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 120,
+      "category": "linkedin_only_match",
+      "target_entity_id": 144,
+      "expected_rule": "BR-03",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 121,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 15,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 122,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 16,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 123,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 25,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 124,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 56,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 125,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 57,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 126,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 67,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 127,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 99,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 128,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 100,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 129,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 109,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 130,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 140,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 131,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 141,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 132,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 150,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 133,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 182,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 134,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 183,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 135,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 192,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 136,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 224,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 137,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 225,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 138,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 236,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 139,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 266,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 140,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 267,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 141,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 276,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 142,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 309,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 143,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 310,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 144,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 319,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 145,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 353,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 146,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 354,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 147,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 363,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 148,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 396,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 149,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 397,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 150,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 406,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 151,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 630,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 152,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 1508,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 153,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 1533,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 154,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 1636,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 155,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 1698,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 156,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 1756,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 157,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 2300,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 158,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 2459,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 159,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 2498,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 160,
+      "category": "fuzzy_80_legal_name",
+      "target_entity_id": 2516,
+      "expected_rule": "BR-07",
+      "expected_status": "potential_duplicate",
+      "expected_ui_section": "potential"
+    },
+    {
+      "row_number": 161,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 146,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 162,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 147,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 163,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 148,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 164,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 149,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 165,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 151,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 166,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 152,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 167,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 153,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 168,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 154,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 169,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 155,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 170,
+      "category": "conflict_domain_match_linkedin_conflict",
+      "target_entity_id": 156,
+      "expected_rule": "BR-04",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 171,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 158,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 172,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 160,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 173,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 161,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 174,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 162,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 175,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 163,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 176,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 164,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 177,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 165,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 178,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 166,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 179,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 167,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 180,
+      "category": "conflict_domain_conflict_linkedin_match",
+      "target_entity_id": 168,
+      "expected_rule": "BR-05",
+      "expected_status": "needs_review",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 181,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 182,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 183,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 184,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 185,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 186,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 187,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 188,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 189,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 190,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 191,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 192,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 193,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 194,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 195,
+      "category": "look_alike_hard_negative",
+      "target_entity_id": null,
+      "expected_rule": "look_alike",
+      "expected_status": "needs_review_or_not_a_match",
+      "expected_ui_section": "other"
+    },
+    {
+      "row_number": 196,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 197,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 198,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 199,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 200,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 201,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 202,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 203,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 204,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 205,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 206,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 207,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 208,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 209,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 210,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 211,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 212,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 213,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 214,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 215,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 216,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 217,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 218,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 219,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 220,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 221,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 222,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 223,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 224,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 225,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 226,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 227,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 228,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 229,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 230,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 231,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 232,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 233,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 234,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 235,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 236,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 237,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 238,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 239,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 240,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 241,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 242,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 243,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 244,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 245,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 246,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 247,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 248,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 249,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 250,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 251,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 252,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 253,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 254,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 255,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 256,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 257,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 258,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 259,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 260,
+      "category": "unique_record",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 261,
+      "category": "missing_legal_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 262,
+      "category": "missing_legal_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 263,
+      "category": "missing_legal_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 264,
+      "category": "missing_legal_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 265,
+      "category": "missing_legal_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 266,
+      "category": "missing_company_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 267,
+      "category": "missing_company_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 268,
+      "category": "missing_company_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 269,
+      "category": "missing_company_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 270,
+      "category": "missing_company_name",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 271,
+      "category": "missing_all_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 272,
+      "category": "missing_all_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 273,
+      "category": "missing_all_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 274,
+      "category": "missing_all_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 275,
+      "category": "missing_all_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 276,
+      "category": "rejected_unusable_names",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "rejected",
+      "expected_ui_section": "rejected"
+    },
+    {
+      "row_number": 277,
+      "category": "rejected_unusable_names",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "rejected",
+      "expected_ui_section": "rejected"
+    },
+    {
+      "row_number": 278,
+      "category": "rejected_unusable_names",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "rejected",
+      "expected_ui_section": "rejected"
+    },
+    {
+      "row_number": 279,
+      "category": "rejected_unusable_names",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "rejected",
+      "expected_ui_section": "rejected"
+    },
+    {
+      "row_number": 280,
+      "category": "rejected_unusable_names",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "rejected",
+      "expected_ui_section": "rejected"
+    },
+    {
+      "row_number": 281,
+      "category": "formula_injection_defense",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 282,
+      "category": "formula_injection_defense",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 283,
+      "category": "formula_injection_defense",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 284,
+      "category": "formula_injection_defense",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 285,
+      "category": "formula_injection_defense",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 286,
+      "category": "url_normalization_variation",
+      "target_entity_id": 169,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 287,
+      "category": "url_normalization_variation",
+      "target_entity_id": 170,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 288,
+      "category": "url_normalization_variation",
+      "target_entity_id": 171,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 289,
+      "category": "url_normalization_variation",
+      "target_entity_id": 172,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 290,
+      "category": "url_normalization_variation",
+      "target_entity_id": 173,
+      "expected_rule": "BR-01",
+      "expected_status": "high_confidence_candidate",
+      "expected_ui_section": "exact"
+    },
+    {
+      "row_number": 291,
+      "category": "unicode_and_diacritics",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 292,
+      "category": "unicode_and_diacritics",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 293,
+      "category": "unicode_and_diacritics",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 294,
+      "category": "unicode_and_diacritics",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 295,
+      "category": "unicode_and_diacritics",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "accepted_no_candidate",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 296,
+      "category": "malformed_url_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "invalid_identifiers_flagged",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 297,
+      "category": "malformed_url_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "invalid_identifiers_flagged",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 298,
+      "category": "malformed_url_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "invalid_identifiers_flagged",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 299,
+      "category": "malformed_url_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "invalid_identifiers_flagged",
+      "expected_ui_section": "ready"
+    },
+    {
+      "row_number": 300,
+      "category": "malformed_url_identifiers",
+      "target_entity_id": null,
+      "expected_rule": null,
+      "expected_status": "invalid_identifiers_flagged",
+      "expected_ui_section": "ready"
+    }
+  ]
+}

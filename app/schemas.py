@@ -91,6 +91,10 @@ class PaginatedResultsResponse(BaseModel):
     potential_fuzzy_count: int
     needs_review_count: int
     reviewed_count: int
+    filename: str = ""
+    # Original persisted upload data, including rows with no candidates. Only
+    # included on page one so pagination does not repeat the entire upload.
+    uploaded_rows: List[ImportRowItem] = Field(default_factory=list)
 
 class CandidateDetailResponse(BaseModel):
     candidate: CandidateItem
